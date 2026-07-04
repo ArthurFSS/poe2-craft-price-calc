@@ -15,6 +15,16 @@ import {
 
 const STORAGE_KEY = 'forge-poe2-saved-crafts-v3';
 const LEGACY_STORAGE_KEY = 'forge-poe2-crafts-v2';
+const PRICES_FILE_UPDATED_AT = __PRICES_UPDATED_AT__;
+
+const formatUpdatedAt = (value) => {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return null;
+  return new Intl.DateTimeFormat('pt-BR', {
+    dateStyle: 'short',
+    timeStyle: 'short',
+  }).format(date);
+};
 
 const cloneCraft = (craft) => (
   globalThis.structuredClone
@@ -476,7 +486,11 @@ export default function App() {
   const [activeCraft, setActiveCraft] = useState(null);
   const [pendingCraft, setPendingCraft] = useState(null);
   const [priceData, setPriceData] = useState([]);
-  const [priceStatus, setPriceStatus] = useState({ state: 'loading', message: 'Carregando preços' });
+  const [priceStatus, setPriceStatus] = useState({
+    state: 'loading',
+    message: 'Carregando preços',
+    updatedAt: null,
+  });
   const [recipeName, setRecipeName] = useState('');
   const [notice, setNotice] = useState(null);
   const importRef = useRef(null);
@@ -486,16 +500,21 @@ export default function App() {
     fetch(`/prices.json?_=${Date.now()}`)
       .then((response) => {
         if (!response.ok) throw new Error('Falha ao carregar');
-        return response.json();
+        const lastModified = response.headers.get('last-modified') || PRICES_FILE_UPDATED_AT;
+        return response.json().then((data) => ({ data, lastModified }));
       })
-      .then((data) => {
+      .then(({ data, lastModified }) => {
         if (!active) return;
         setPriceData(data);
-        setPriceStatus({ state: 'success', message: `${data.length.toLocaleString('pt-BR')} itens atualizados` });
+        setPriceStatus({
+          state: 'success',
+          message: `${data.length.toLocaleString('pt-BR')} itens atualizados`,
+          updatedAt: formatUpdatedAt(lastModified),
+        });
       })
       .catch(() => {
         if (!active) return;
-        setPriceStatus({ state: 'error', message: 'Preços indisponíveis' });
+        setPriceStatus({ state: 'error', message: 'Preços indisponíveis', updatedAt: null });
       });
     return () => { active = false; };
   }, []);
@@ -623,7 +642,10 @@ export default function App() {
 
         <div className={`price-status ${priceStatus.state}`}>
           <span className="status-dot" />
-          {priceStatus.message}
+          <span>
+            <strong>{priceStatus.message}</strong>
+            {priceStatus.updatedAt && <small>Atualizado em {priceStatus.updatedAt}</small>}
+          </span>
         </div>
       </nav>
 

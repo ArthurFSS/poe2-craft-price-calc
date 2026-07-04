@@ -94,6 +94,9 @@ button:disabled { cursor: not-allowed; opacity: .42; }
   font-weight: 600;
   color: var(--muted);
 }
+.price-status > span:last-child { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.price-status strong { color: #9ba4ad; font-size: 11px; font-weight: 600; }
+.price-status small { color: #646d77; font-size: 9px; font-weight: 500; }
 
 .status-dot {
   width: 7px;
