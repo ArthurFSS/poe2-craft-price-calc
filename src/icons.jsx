@@ -26,6 +26,18 @@ const paths = {
       <path d="M5 3h14" />
     </>
   ),
+  save: (
+    <>
+      <path d="M5 3h12l3 3v15H4V4a1 1 0 0 1 1-1Z" />
+      <path d="M8 3v6h8V3M8 21v-7h8v7" />
+    </>
+  ),
+  folder: (
+    <>
+      <path d="M3 6h7l2 2h9v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z" />
+      <path d="M3 10h18" />
+    </>
+  ),
   check: <path d="m5 12 4 4L19 6" />,
   alert: (
     <>
