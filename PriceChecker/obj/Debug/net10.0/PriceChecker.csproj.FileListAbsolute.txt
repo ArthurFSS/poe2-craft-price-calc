@@ -1,0 +1,14 @@
+D:\Git\PriceChecker\PriceChecker\bin\Debug\net10.0\PriceChecker.exe
+D:\Git\PriceChecker\PriceChecker\bin\Debug\net10.0\PriceChecker.deps.json
+D:\Git\PriceChecker\PriceChecker\bin\Debug\net10.0\PriceChecker.runtimeconfig.json
+D:\Git\PriceChecker\PriceChecker\bin\Debug\net10.0\PriceChecker.dll
+D:\Git\PriceChecker\PriceChecker\bin\Debug\net10.0\PriceChecker.pdb
+D:\Git\PriceChecker\PriceChecker\obj\Debug\net10.0\PriceChecker.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\PriceChecker\PriceChecker\obj\Debug\net10.0\PriceChecker.AssemblyInfoInputs.cache
+D:\Git\PriceChecker\PriceChecker\obj\Debug\net10.0\PriceChecker.AssemblyInfo.cs
+D:\Git\PriceChecker\PriceChecker\obj\Debug\net10.0\PriceChecker.csproj.CoreCompileInputs.cache
+D:\Git\PriceChecker\PriceChecker\obj\Debug\net10.0\PriceChecker.dll
+D:\Git\PriceChecker\PriceChecker\obj\Debug\net10.0\refint\PriceChecker.dll
+D:\Git\PriceChecker\PriceChecker\obj\Debug\net10.0\PriceChecker.pdb
+D:\Git\PriceChecker\PriceChecker\obj\Debug\net10.0\PriceChecker.genruntimeconfig.cache
+D:\Git\PriceChecker\PriceChecker\obj\Debug\net10.0\ref\PriceChecker.dll
