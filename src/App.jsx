@@ -8,6 +8,7 @@ import {
   lineTotal,
   normalizeCrafts,
   recipeTotal,
+  roundDivineUp,
   stepTotal,
   stepUnitTotal,
 } from './model';
@@ -339,10 +340,11 @@ function RecipeCard({ recipe, prices, types, isDirty, onChange, onSave }) {
               <NumberInput
                 label="Preço da base em Divine"
                 min={0}
+                step={0.01}
                 value={recipe.base.price}
                 onChange={(price) => onChange({
                   ...recipe,
-                  base: { ...recipe.base, price: Number.isFinite(price) ? price : 0 },
+                  base: { ...recipe.base, price: Number.isFinite(price) ? roundDivineUp(price) : 0 },
                 })}
               />
               <em>Divine</em>

@@ -433,11 +433,11 @@
     "Source": "Currency",
     "Id": "ancient-infuser",
     "Name": "Ancient Infuser",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "ancient-infuser",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL0luY3Vyc2lvbkFuY2llbnRJbmZ1c2lvbiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/7d23730590/IncursionAncientInfusion.png",
-    "Price": 0.2574,
-    "Volume": 152.3
+    "Price": 0.2546,
+    "Volume": 155.5
   },
   {
     "Source": "Currency",
@@ -446,18 +446,18 @@
     "Category": "Currency",
     "DetailsId": "arcanists-etcher",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25NYWdpY1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/516e8f1131/CurrencyWeaponMagicQuality.png",
-    "Price": 0.006439,
-    "Volume": 75.45
+    "Price": 0.006147,
+    "Volume": 71.01
   },
   {
     "Source": "Currency",
     "Id": "architects-orb",
     "Name": "Architect\u0027s Orb",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "architects-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL0luY3Vyc2lvbkdyZWF0ZXJWYWFsT3JiIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/7ba6f79f63/IncursionGreaterVaalOrb.png",
-    "Price": 4.08,
-    "Volume": 5710
+    "Price": 3.98,
+    "Volume": 5233
   },
   {
     "Source": "Currency",
@@ -466,8 +466,8 @@
     "Category": "Currency",
     "DetailsId": "armourers-scrap",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBcm1vdXJRdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d5868f596d/CurrencyArmourQuality.png",
-    "Price": 0.001998,
-    "Volume": 129.2
+    "Price": 0.001939,
+    "Volume": 128.3
   },
   {
     "Source": "Currency",
@@ -476,8 +476,8 @@
     "Category": "Currency",
     "DetailsId": "artificers-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRFcXVpcG1lbnRTb2NrZXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5131fd4774/CurrencyAddEquipmentSocket.png",
-    "Price": 0.005945,
-    "Volume": 29.83
+    "Price": 0.005744,
+    "Volume": 30.5
   },
   {
     "Source": "Currency",
@@ -486,8 +486,8 @@
     "Category": "Currency",
     "DetailsId": "artificers-shard",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRFcXVpcG1lbnRTb2NrZXRTaGFyZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/cdcdd8bf3f/CurrencyAddEquipmentSocketShard.png",
-    "Price": 0.002762,
-    "Volume": 0.08055
+    "Price": 0.002801,
+    "Volume": 0.07981
   },
   {
     "Source": "Currency",
@@ -496,8 +496,8 @@
     "Category": "Currency",
     "DetailsId": "blacksmiths-whetstone",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25RdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/18715ea7be/CurrencyWeaponQuality.png",
-    "Price": 0.0008139,
-    "Volume": 15.67
+    "Price": 0.0006765,
+    "Volume": 13.53
   },
   {
     "Source": "Currency",
@@ -506,8 +506,8 @@
     "Category": "Currency",
     "DetailsId": "chance-shard",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9VbmlxdWVTaGFyZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9828a70270/CurrencyUpgradeToUniqueShard.png",
-    "Price": 0.002374,
-    "Volume": 0.1698
+    "Price": 0.002742,
+    "Volume": 0.1787
   },
   {
     "Source": "Currency",
@@ -517,17 +517,17 @@
     "DetailsId": "chaos-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
     "Price": 0.1392,
-    "Volume": 238147
+    "Volume": 230441
   },
   {
     "Source": "Currency",
     "Id": "core-destabiliser",
     "Name": "Core Destabiliser",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "core-destabiliser",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL0luY3Vyc2lvbkNvcmVEZXN0YWJsaXNlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e613c14ed7/IncursionCoreDestabliser.png",
-    "Price": 2.76,
-    "Volume": 4224
+    "Price": 2.69,
+    "Volume": 3361
   },
   {
     "Source": "Currency",
@@ -536,18 +536,18 @@
     "Category": "Currency",
     "DetailsId": "cryptic-key",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU3Ryb25nYm94U2tlbGV0b25LZXkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ae08d02326/StrongboxSkeletonKey.png",
-    "Price": 0.5367,
-    "Volume": 104.8
+    "Price": 0.6321,
+    "Volume": 134.3
   },
   {
     "Source": "Currency",
     "Id": "crystallised-corruption",
     "Name": "Crystallised Corruption",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "crystallised-corruption",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL0luY3Vyc2lvbkNyeXN0YWxsaXNlZENvcnJ1cHRpb24iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7bb759396f/IncursionCrystallisedCorruption.png",
-    "Price": 2.41,
-    "Volume": 2367
+    "Price": 2.42,
+    "Volume": 2260
   },
   {
     "Source": "Currency",
@@ -557,7 +557,7 @@
     "DetailsId": "divine-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
     "Price": 1,
-    "Volume": 238147
+    "Volume": 230441
   },
   {
     "Source": "Currency",
@@ -566,8 +566,8 @@
     "Category": "Currency",
     "DetailsId": "exalted-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
-    "Price": 0.001405,
-    "Volume": 23499
+    "Price": 0.001392,
+    "Volume": 22630
   },
   {
     "Source": "Currency",
@@ -576,8 +576,8 @@
     "Category": "Currency",
     "DetailsId": "fracturing-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRnJhY3R1cmluZ09yYiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8b85ed1dc2/FracturingOrb.png",
-    "Price": 8.56,
-    "Volume": 30694
+    "Price": 8.7,
+    "Volume": 26898
   },
   {
     "Source": "Currency",
@@ -586,8 +586,8 @@
     "Category": "Currency",
     "DetailsId": "gemcutters-prism",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lHZW1RdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f4bace18d7/CurrencyGemQuality.png",
-    "Price": 0.01568,
-    "Volume": 252.5
+    "Price": 0.008659,
+    "Volume": 143.4
   },
   {
     "Source": "Currency",
@@ -596,8 +596,8 @@
     "Category": "Currency",
     "DetailsId": "glassblowers-bauble",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lGbGFza1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1cec279e01/CurrencyFlaskQuality.png",
-    "Price": 0.002134,
-    "Volume": 14.58
+    "Price": 0.002219,
+    "Volume": 15.05
   },
   {
     "Source": "Currency",
@@ -606,8 +606,8 @@
     "Category": "Currency",
     "DetailsId": "greater-chaos-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
-    "Price": 0.4157,
-    "Volume": 14519
+    "Price": 0.4153,
+    "Volume": 13980
   },
   {
     "Source": "Currency",
@@ -616,8 +616,8 @@
     "Category": "Currency",
     "DetailsId": "greater-exalted-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
-    "Price": 0.011,
-    "Volume": 228.5
+    "Price": 0.01128,
+    "Volume": 221.8
   },
   {
     "Source": "Currency",
@@ -626,8 +626,8 @@
     "Category": "Currency",
     "DetailsId": "greater-jewellers-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7dd6ee75be/CurrencyRerollSocketNumbers02.png",
-    "Price": 0.002742,
-    "Volume": 6.88
+    "Price": 0.002585,
+    "Volume": 6.54
   },
   {
     "Source": "Currency",
@@ -636,8 +636,8 @@
     "Category": "Currency",
     "DetailsId": "greater-orb-of-augmentation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c8ad0ddc84/CurrencyAddModToMagic.png",
-    "Price": 0.0004304,
-    "Volume": 7.93
+    "Price": 0.0003802,
+    "Volume": 7.15
   },
   {
     "Source": "Currency",
@@ -646,8 +646,8 @@
     "Category": "Currency",
     "DetailsId": "greater-orb-of-transmutation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2f8e1ff9f8/CurrencyUpgradeToMagic.png",
-    "Price": 0.0003634,
-    "Volume": 3.81
+    "Price": 0.0003435,
+    "Volume": 3.62
   },
   {
     "Source": "Currency",
@@ -656,8 +656,8 @@
     "Category": "Currency",
     "DetailsId": "greater-regal-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
-    "Price": 0.005567,
-    "Volume": 25.85
+    "Price": 0.00534,
+    "Volume": 24.32
   },
   {
     "Source": "Currency",
@@ -666,28 +666,28 @@
     "Category": "Currency",
     "DetailsId": "hinekoras-lock",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGluZWtvcmFzTG9jayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab2163ae06/HinekorasLock.png",
-    "Price": 1402,
-    "Volume": 128958
+    "Price": 1393,
+    "Volume": 122564
   },
   {
     "Source": "Currency",
     "Id": "kamasas-orb-of-sacrifice",
     "Name": "Kamasa\u0027s Orb of Sacrifice",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "kamasas-orb-of-sacrifice",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL0luY3Vyc2lvbkNvcnJ1cHRpb25PcmIzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/00e0cd1060/IncursionCorruptionOrb3.png",
-    "Price": 0.3116,
-    "Volume": 15.17
+    "Price": 0.3462,
+    "Volume": 12
   },
   {
     "Source": "Currency",
     "Id": "kopecs-orb-of-sacrifice",
     "Name": "Kopec\u0027s Orb of Sacrifice",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "kopecs-orb-of-sacrifice",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL0luY3Vyc2lvbkNvcnJ1cHRpb25PcmIyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/911b28ea18/IncursionCorruptionOrb2.png",
-    "Price": 0.5772,
-    "Volume": 40.6
+    "Price": 0.5768,
+    "Volume": 37.11
   },
   {
     "Source": "Currency",
@@ -696,8 +696,8 @@
     "Category": "Currency",
     "DetailsId": "lesser-jewellers-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b0b9a43ed8/CurrencyRerollSocketNumbers01.png",
-    "Price": 4.505E-05,
-    "Volume": 0.02014
+    "Price": 4.11E-05,
+    "Volume": 0.01787
   },
   {
     "Source": "Currency",
@@ -706,8 +706,8 @@
     "Category": "Currency",
     "DetailsId": "mirror-of-kalandra",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lEdXBsaWNhdGUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/26bc31680e/CurrencyDuplicate.png",
-    "Price": 6547,
-    "Volume": 236799
+    "Price": 6513,
+    "Volume": 229051
   },
   {
     "Source": "Currency",
@@ -716,8 +716,8 @@
     "Category": "Currency",
     "DetailsId": "orb-of-alchemy",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9SYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9b80b44821/CurrencyUpgradeToRare.png",
-    "Price": 0.002614,
-    "Volume": 139.7
+    "Price": 0.00274,
+    "Volume": 134.3
   },
   {
     "Source": "Currency",
@@ -726,8 +726,8 @@
     "Category": "Currency",
     "DetailsId": "orb-of-annulment",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5udWxsT3JiIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2daba8ccca/AnnullOrb.png",
-    "Price": 0.8627,
-    "Volume": 35677
+    "Price": 0.8321,
+    "Volume": 35137
   },
   {
     "Source": "Currency",
@@ -736,8 +736,8 @@
     "Category": "Currency",
     "DetailsId": "orb-of-augmentation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c8ad0ddc84/CurrencyAddModToMagic.png",
-    "Price": 0.0008048,
-    "Volume": 18.67
+    "Price": 0.0008081,
+    "Volume": 15.83
   },
   {
     "Source": "Currency",
@@ -746,18 +746,18 @@
     "Category": "Currency",
     "DetailsId": "orb-of-chance",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9VbmlxdWUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/93c6cc8d5b/CurrencyUpgradeToUnique.png",
-    "Price": 0.01513,
-    "Volume": 215.3
+    "Price": 0.01563,
+    "Volume": 230.2
   },
   {
     "Source": "Currency",
     "Id": "orb-of-extraction",
     "Name": "Orb of Extraction",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "orb-of-extraction",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL0luY3Vyc2lvblNvY2tldGFibGVFeHRyYWN0b3JDdXJyZW5jeSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/dae9dfbb5e/IncursionSocketableExtractorCurrency.png",
-    "Price": 0.821,
-    "Volume": 171.7
+    "Price": 0.8032,
+    "Volume": 156.8
   },
   {
     "Source": "Currency",
@@ -766,8 +766,8 @@
     "Category": "Currency",
     "DetailsId": "orb-of-transmutation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2f8e1ff9f8/CurrencyUpgradeToMagic.png",
-    "Price": 0.0002786,
-    "Volume": 4.57
+    "Price": 0.0002333,
+    "Volume": 3.77
   },
   {
     "Source": "Currency",
@@ -776,8 +776,8 @@
     "Category": "Currency",
     "DetailsId": "perfect-chaos-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
-    "Price": 6.68,
-    "Volume": 35674
+    "Price": 6.66,
+    "Volume": 33870
   },
   {
     "Source": "Currency",
@@ -786,8 +786,8 @@
     "Category": "Currency",
     "DetailsId": "perfect-exalted-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
-    "Price": 2.69,
-    "Volume": 19000
+    "Price": 2.7,
+    "Volume": 18319
   },
   {
     "Source": "Currency",
@@ -796,8 +796,8 @@
     "Category": "Currency",
     "DetailsId": "perfect-jewellers-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ac6398e6a0/CurrencyRerollSocketNumbers03.png",
-    "Price": 0.2882,
-    "Volume": 2136
+    "Price": 0.2889,
+    "Volume": 2045
   },
   {
     "Source": "Currency",
@@ -806,7 +806,7 @@
     "Category": "Currency",
     "DetailsId": "perfect-orb-of-augmentation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c8ad0ddc84/CurrencyAddModToMagic.png",
-    "Price": 0.08083,
+    "Price": 0.07994,
     "Volume": 1702
   },
   {
@@ -816,8 +816,8 @@
     "Category": "Currency",
     "DetailsId": "perfect-orb-of-transmutation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2f8e1ff9f8/CurrencyUpgradeToMagic.png",
-    "Price": 0.02083,
-    "Volume": 195.5
+    "Price": 0.02038,
+    "Volume": 160.7
   },
   {
     "Source": "Currency",
@@ -826,8 +826,8 @@
     "Category": "Currency",
     "DetailsId": "perfect-regal-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
-    "Price": 0.1049,
-    "Volume": 475.8
+    "Price": 0.1053,
+    "Volume": 408.3
   },
   {
     "Source": "Currency",
@@ -836,8 +836,8 @@
     "Category": "Currency",
     "DetailsId": "regal-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
-    "Price": 0.00147,
-    "Volume": 28.41
+    "Price": 0.001296,
+    "Volume": 24.08
   },
   {
     "Source": "Currency",
@@ -846,8 +846,8 @@
     "Category": "Currency",
     "DetailsId": "regal-shard",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmVTaGFyZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e4128abe92/CurrencyUpgradeMagicToRareShard.png",
-    "Price": 0.000281,
-    "Volume": 0.0004683
+    "Price": 0.0002784,
+    "Volume": 0.000464
   },
   {
     "Source": "Currency",
@@ -856,8 +856,8 @@
     "Category": "Currency",
     "DetailsId": "scroll-of-wisdom",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lJZGVudGlmaWNhdGlvbiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/884f7bc58b/CurrencyIdentification.png",
-    "Price": 5.653E-05,
-    "Volume": 6.48
+    "Price": 5.62E-05,
+    "Volume": 5.9
   },
   {
     "Source": "Currency",
@@ -866,58 +866,58 @@
     "Category": "Currency",
     "DetailsId": "transmutation-shard",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpY1NoYXJkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e67bca229b/CurrencyUpgradeToMagicShard.png",
-    "Price": 0.002388,
-    "Volume": 0.003981
+    "Price": 0.002436,
+    "Volume": 0.001624
   },
   {
     "Source": "Currency",
     "Id": "vaal-arcanists-infuser",
     "Name": "Vaal Arcanist\u0027s Infuser",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "vaal-arcanists-infuser",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL1ZhYWxBcmNhbmlzdHNFdGNoZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/3eb344ecc5/VaalArcanistsEtcher.png",
-    "Price": 0.004648,
-    "Volume": 3.05
+    "Price": 0.004888,
+    "Volume": 2.76
   },
   {
     "Source": "Currency",
     "Id": "vaal-armourers-infuser",
     "Name": "Vaal Armourer\u0027s Infuser",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "vaal-armourers-infuser",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL1ZhYWtBcm1vdXJlcnNTY3JhcCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f9e1c7e389/VaakArmourersScrap.png",
-    "Price": 0.4808,
-    "Volume": 2361
+    "Price": 0.4642,
+    "Volume": 2282
   },
   {
     "Source": "Currency",
     "Id": "vaal-blacksmiths-infuser",
     "Name": "Vaal Blacksmith\u0027s Infuser",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "vaal-blacksmiths-infuser",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL1ZhYWxCbGFja3NtaXRoc1doZXRzdG9uZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/193a2f8085/VaalBlacksmithsWhetstone.png",
-    "Price": 0.1805,
-    "Volume": 444
+    "Price": 0.1788,
+    "Volume": 427.8
   },
   {
     "Source": "Currency",
     "Id": "vaal-catalysing-infuser",
     "Name": "Vaal Catalysing Infuser",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "vaal-catalysing-infuser",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL1ZhYWxDYXRhbHlzdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/1c9f7be28c/VaalCatalyst.png",
-    "Price": 3.25,
-    "Volume": 4058
+    "Price": 3.22,
+    "Volume": 3924
   },
   {
     "Source": "Currency",
     "Id": "vaal-cultivation-orb",
     "Name": "Vaal Cultivation Orb",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "vaal-cultivation-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL0luY3Vyc2lvbkhpc3RvcmljVmFhbE9yYiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/07d4d75931/IncursionHistoricVaalOrb.png",
-    "Price": 4.19,
-    "Volume": 6469
+    "Price": 4.09,
+    "Volume": 6186
   },
   {
     "Source": "Currency",
@@ -926,38 +926,38 @@
     "Category": "Currency",
     "DetailsId": "vaal-orb",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lWYWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/72bc84396c/CurrencyVaal.png",
-    "Price": 0.007693,
-    "Volume": 630.2
+    "Price": 0.007734,
+    "Volume": 594
   },
   {
     "Source": "Currency",
     "Id": "vaal-siphoner",
     "Name": "Vaal Siphoner",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "vaal-siphoner",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL0luY3Vyc2lvblZhYWxTaXBob25lciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/070fd020d7/IncursionVaalSiphoner.png",
-    "Price": 0.001105,
-    "Volume": 0.1344
+    "Price": 0.00113,
+    "Volume": 0.1329
   },
   {
     "Source": "Currency",
     "Id": "yaomacs-orb-of-sacrifice",
     "Name": "Yaomac\u0027s Orb of Sacrifice",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "yaomacs-orb-of-sacrifice",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL0luY3Vyc2lvbkNvcnJ1cHRpb25PcmIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d8bf3af5d5/IncursionCorruptionOrb1.png",
-    "Price": 0.0339,
-    "Volume": 1.93
+    "Price": 0.03307,
+    "Volume": 1.67
   },
   {
     "Source": "Currency",
     "Id": "yuguls-orb-of-sacrifice",
     "Name": "Yugul\u0027s Orb of Sacrifice",
-    "Category": "Vaal",
+    "Category": "Currency",
     "DetailsId": "yuguls-orb-of-sacrifice",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSW5jdXJzaW9uQ3JhZnRpbmdPcmJzL0luY3Vyc2lvbkNvcnJ1cHRpb25PcmI0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5102a7c2f5/IncursionCorruptionOrb4.png",
-    "Price": 0.006335,
-    "Volume": 0.2323
+    "Price": 0.006278,
+    "Volume": 0.2197
   },
   {
     "Source": "Delirium",
@@ -1223,7 +1223,7 @@
     "Source": "Essence",
     "Id": "essence-of-abrasion",
     "Name": "Essence of Abrasion",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-abrasion",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e52cd05eeb/PhysicalEssence.png",
     "Price": 0.06125,
@@ -1233,7 +1233,7 @@
     "Source": "Essence",
     "Id": "essence-of-alacrity",
     "Name": "Essence of Alacrity",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-alacrity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZENhc3RlckVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2a866d411b/SpeedCasterEssence.png",
     "Price": 0.02274,
@@ -1243,7 +1243,7 @@
     "Source": "Essence",
     "Id": "essence-of-battle",
     "Name": "Essence of Battle",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-battle",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3cece29e19/AttackEssence.png",
     "Price": 0.001392,
@@ -1253,7 +1253,7 @@
     "Source": "Essence",
     "Id": "essence-of-command",
     "Name": "Essence of Command",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-command",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/7150f695c2/AllyEssence.png",
     "Price": 0.008237,
@@ -1263,7 +1263,7 @@
     "Source": "Essence",
     "Id": "essence-of-delirium",
     "Name": "Essence of Delirium",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-delirium",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db3JydXB0ZWRFc3NlbmNlRGVsaXJpdW0iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d67329e6ed/CorruptedEssenceDelirium.png",
     "Price": 0.3614,
@@ -1273,7 +1273,7 @@
     "Source": "Essence",
     "Id": "essence-of-electricity",
     "Name": "Essence of Electricity",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-electricity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2c3725fdad/LightningEssence.png",
     "Price": 0.01086,
@@ -1283,7 +1283,7 @@
     "Source": "Essence",
     "Id": "essence-of-enhancement",
     "Name": "Essence of Enhancement",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-enhancement",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EZWZlbmNlc0Vzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e1e5c1ccb8/DefencesEssence.png",
     "Price": 0.02223,
@@ -1293,7 +1293,7 @@
     "Source": "Essence",
     "Id": "essence-of-flames",
     "Name": "Essence of Flames",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-flames",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/add6c12f64/FireEssence.png",
     "Price": 0.001044,
@@ -1303,7 +1303,7 @@
     "Source": "Essence",
     "Id": "essence-of-grounding",
     "Name": "Essence of Grounding",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-grounding",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdSZXNpc3RhbmNlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f752fa5ed2/LightningResistanceEssence.png",
     "Price": 0.007551,
@@ -1313,7 +1313,7 @@
     "Source": "Essence",
     "Id": "essence-of-haste",
     "Name": "Essence of Haste",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-haste",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/affda36f07/SpeedEssence.png",
     "Price": 0.02062,
@@ -1323,7 +1323,7 @@
     "Source": "Essence",
     "Id": "essence-of-horror",
     "Name": "Essence of Horror",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-horror",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db3JydXB0ZWRFc3NlbmNlSG9ycm9yIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6b3b256279/CorruptedEssenceHorror.png",
     "Price": 0.5305,
@@ -1333,7 +1333,7 @@
     "Source": "Essence",
     "Id": "essence-of-hysteria",
     "Name": "Essence of Hysteria",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-hysteria",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db3JydXB0ZWRFc3NlbmNlSHlzdGVyaWEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/91e94f1413/CorruptedEssenceHysteria.png",
     "Price": 0.9197,
@@ -1343,7 +1343,7 @@
     "Source": "Essence",
     "Id": "essence-of-ice",
     "Name": "Essence of Ice",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-ice",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/73d9fd8619/ColdEssence.png",
     "Price": 0.001193,
@@ -1353,7 +1353,7 @@
     "Source": "Essence",
     "Id": "essence-of-insanity",
     "Name": "Essence of Insanity",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-insanity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db3JydXB0ZWRFc3NlbmNlSW5zYW5pdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2231419c93/CorruptedEssenceInsanity.png",
     "Price": 0.02201,
@@ -1363,7 +1363,7 @@
     "Source": "Essence",
     "Id": "essence-of-insulation",
     "Name": "Essence of Insulation",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-insulation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/228d48a458/FireResistanceEssence.png",
     "Price": 0.01644,
@@ -1373,7 +1373,7 @@
     "Source": "Essence",
     "Id": "essence-of-opulence",
     "Name": "Essence of Opulence",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-opulence",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9SYXJpdHlSZXNpc3RhbmNlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/1b79acb619/RarityResistanceEssence.png",
     "Price": 0.3261,
@@ -1383,7 +1383,7 @@
     "Source": "Essence",
     "Id": "essence-of-ruin",
     "Name": "Essence of Ruin",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-ruin",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DaGFvc0Vzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5f0d3c7014/ChaosEssence.png",
     "Price": 0.04629,
@@ -1393,7 +1393,7 @@
     "Source": "Essence",
     "Id": "essence-of-seeking",
     "Name": "Essence of Seeking",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-seeking",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Dcml0aWNhbEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/febf231da7/CriticalEssence.png",
     "Price": 0.02404,
@@ -1403,7 +1403,7 @@
     "Source": "Essence",
     "Id": "essence-of-sorcery",
     "Name": "Essence of Sorcery",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-sorcery",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6bb099115a/CasterEssence.png",
     "Price": 0.004532,
@@ -1413,7 +1413,7 @@
     "Source": "Essence",
     "Id": "essence-of-thawing",
     "Name": "Essence of Thawing",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-thawing",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d36e512699/ColdResistanceEssence.png",
     "Price": 0.01149,
@@ -1423,7 +1423,7 @@
     "Source": "Essence",
     "Id": "essence-of-the-abyss",
     "Name": "Essence of the Abyss",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-the-abyss",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BYnlzc2FsRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3a286394d4/AbyssalEssence.png",
     "Price": 0.03066,
@@ -1433,7 +1433,7 @@
     "Source": "Essence",
     "Id": "essence-of-the-body",
     "Name": "Essence of the Body",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-the-body",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWZlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/638d6c4cbe/LifeEssence.png",
     "Price": 0.009167,
@@ -1443,7 +1443,7 @@
     "Source": "Essence",
     "Id": "essence-of-the-breach",
     "Name": "Essence of the Breach",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-the-breach",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9CcmVhY2hFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/60e81fa5eb/BreachEssence.png",
     "Price": 0.215,
@@ -1453,7 +1453,7 @@
     "Source": "Essence",
     "Id": "essence-of-the-infinite",
     "Name": "Essence of the Infinite",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-the-infinite",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRyaWJ1dGVFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/58f9516082/AttributeEssence.png",
     "Price": 0.03063,
@@ -1463,7 +1463,7 @@
     "Source": "Essence",
     "Id": "essence-of-the-mind",
     "Name": "Essence of the Mind",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "essence-of-the-mind",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9NYW5hRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c881e6273c/ManaEssence.png",
     "Price": 0.001392,
@@ -1473,7 +1473,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-abrasion",
     "Name": "Greater Essence of Abrasion",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-abrasion",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyUGh5c2ljYWxFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a28c932def/GreaterPhysicalEssence.png",
     "Price": 0.0005341,
@@ -1483,7 +1483,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-alacrity",
     "Name": "Greater Essence of Alacrity",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-alacrity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyU3BlZWRDYXN0ZXJFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b77c25162f/GreaterSpeedCasterEssence.png",
     "Price": 0.0008809,
@@ -1493,7 +1493,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-battle",
     "Name": "Greater Essence of Battle",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-battle",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQXR0YWNrRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/e2bb5332b8/GreaterAttackEssence.png",
     "Price": 0.0001896,
@@ -1503,7 +1503,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-command",
     "Name": "Greater Essence of Command",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-command",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQWxseUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/55b6ba3361/GreaterAllyEssence.png",
     "Price": 0.0007005,
@@ -1513,7 +1513,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-electricity",
     "Name": "Greater Essence of Electricity",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-electricity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlnaHRuaW5nRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c6df464bb9/GreaterLightningEssence.png",
     "Price": 0.0002983,
@@ -1523,7 +1523,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-enhancement",
     "Name": "Greater Essence of Enhancement",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-enhancement",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRGVmZW5jZXNFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a0ed2df82c/GreaterDefencesEssence.png",
     "Price": 0.001216,
@@ -1533,7 +1533,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-flames",
     "Name": "Greater Essence of Flames",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-flames",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9b8d6e7b4e/GreaterFireEssence.png",
     "Price": 0.0002166,
@@ -1543,7 +1543,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-grounding",
     "Name": "Greater Essence of Grounding",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-grounding",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlnaHRuaW5nUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/fd9d91c76a/GreaterLightningResistanceEssence.png",
     "Price": 0.001503,
@@ -1553,7 +1553,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-haste",
     "Name": "Greater Essence of Haste",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-haste",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyU3BlZWRFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5a72f95c24/GreaterSpeedEssence.png",
     "Price": 0.0006151,
@@ -1563,7 +1563,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-ice",
     "Name": "Greater Essence of Ice",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-ice",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ29sZEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e5224bace0/GreaterColdEssence.png",
     "Price": 0.0002559,
@@ -1573,7 +1573,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-insulation",
     "Name": "Greater Essence of Insulation",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-insulation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZVJlc2lzdGFuY2VFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e5b663f414/GreaterFireResistanceEssence.png",
     "Price": 0.001093,
@@ -1583,7 +1583,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-opulence",
     "Name": "Greater Essence of Opulence",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-opulence",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyUmFyaXR5UmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/dfc7c22676/GreaterRarityResistanceEssence.png",
     "Price": 0.01471,
@@ -1593,7 +1593,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-ruin",
     "Name": "Greater Essence of Ruin",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-ruin",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ2hhb3NFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5c71ec7418/GreaterChaosEssence.png",
     "Price": 0.005497,
@@ -1603,7 +1603,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-seeking",
     "Name": "Greater Essence of Seeking",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-seeking",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ3JpdGljYWxFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/db4eadee00/GreaterCriticalEssence.png",
     "Price": 0.006213,
@@ -1613,7 +1613,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-sorcery",
     "Name": "Greater Essence of Sorcery",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-sorcery",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ2FzdGVyRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/14b7e4c8ef/GreaterCasterEssence.png",
     "Price": 0.0007582,
@@ -1623,7 +1623,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-thawing",
     "Name": "Greater Essence of Thawing",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-thawing",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ29sZFJlc2lzdGFuY2VFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/acdbacca0f/GreaterColdResistanceEssence.png",
     "Price": 0.001141,
@@ -1633,7 +1633,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-the-body",
     "Name": "Greater Essence of the Body",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-the-body",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlmZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8906b401fe/GreaterLifeEssence.png",
     "Price": 0.0003259,
@@ -1643,7 +1643,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-the-infinite",
     "Name": "Greater Essence of the Infinite",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-the-infinite",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQXR0cmlidXRlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8a8cb823af/GreaterAttributeEssence.png",
     "Price": 0.0004269,
@@ -1653,7 +1653,7 @@
     "Source": "Essence",
     "Id": "greater-essence-of-the-mind",
     "Name": "Greater Essence of the Mind",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "greater-essence-of-the-mind",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTWFuYUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f9e17e6d47/GreaterManaEssence.png",
     "Price": 0.0002751,
@@ -1663,7 +1663,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-abrasion",
     "Name": "Lesser Essence of Abrasion",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-abrasion",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/21723a9133/PhysicalEssenceLesser.png",
     "Price": 0.03765,
@@ -1673,7 +1673,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-alacrity",
     "Name": "Lesser Essence of Alacrity",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-alacrity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZENhc3RlckVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/837a9c2d66/SpeedCasterEssenceLesser.png",
     "Price": 0.0181,
@@ -1683,7 +1683,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-command",
     "Name": "Lesser Essence of Command",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-command",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3681453df4/AllyEssenceLesser.png",
     "Price": 0.0009281,
@@ -1693,7 +1693,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-electricity",
     "Name": "Lesser Essence of Electricity",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-electricity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdFc3NlbmNlTGVzc2VyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/49193c5226/LightningEssenceLesser.png",
     "Price": 0.006543,
@@ -1703,7 +1703,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-enhancement",
     "Name": "Lesser Essence of Enhancement",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-enhancement",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EZWZlbmNlc0Vzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ec9da3aad1/DefencesEssenceLesser.png",
     "Price": 0.005542,
@@ -1713,7 +1713,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-flames",
     "Name": "Lesser Essence of Flames",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-flames",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlRXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2e190c2f7f/FireEssenceLesser.png",
     "Price": 0.001856,
@@ -1723,7 +1723,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-grounding",
     "Name": "Lesser Essence of Grounding",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-grounding",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdSZXNpc3RhbmNlRXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/fa8f1431fb/LightningResistanceEssenceLesser.png",
     "Price": 0.005118,
@@ -1733,7 +1733,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-haste",
     "Name": "Lesser Essence of Haste",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-haste",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZEVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e01693a14c/SpeedEssenceLesser.png",
     "Price": 0.01582,
@@ -1743,7 +1743,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-ice",
     "Name": "Lesser Essence of Ice",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-ice",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkRXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/7022aec9e5/ColdEssenceLesser.png",
     "Price": 0.01705,
@@ -1753,7 +1753,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-insulation",
     "Name": "Lesser Essence of Insulation",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-insulation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlUmVzaXN0YW5jZUVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/82eb38b617/FireResistanceEssenceLesser.png",
     "Price": 0.001308,
@@ -1763,7 +1763,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-opulence",
     "Name": "Lesser Essence of Opulence",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-opulence",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9SYXJpdHlSZXNpc3RhbmNlRXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9d85275442/RarityResistanceEssenceLesser.png",
     "Price": 0.006961,
@@ -1773,7 +1773,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-ruin",
     "Name": "Lesser Essence of Ruin",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-ruin",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DaGFvc0Vzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/39ed21f57a/ChaosEssenceLesser.png",
     "Price": 0.1253,
@@ -1783,7 +1783,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-seeking",
     "Name": "Lesser Essence of Seeking",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-seeking",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Dcml0aWNhbEVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/beef996420/CriticalEssenceLesser.png",
     "Price": 0.001624,
@@ -1793,7 +1793,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-sorcery",
     "Name": "Lesser Essence of Sorcery",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-sorcery",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlTGVzc2VyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8b5c055fc7/CasterEssenceLesser.png",
     "Price": 0.007053,
@@ -1803,7 +1803,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-thawing",
     "Name": "Lesser Essence of Thawing",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-thawing",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkUmVzaXN0YW5jZUVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5d324717c4/ColdResistanceEssenceLesser.png",
     "Price": 0.006695,
@@ -1813,7 +1813,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-the-body",
     "Name": "Lesser Essence of the Body",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-the-body",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWZlRXNzZW5jZUxlc3NlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/fb88bb3951/LifeEssenceLesser.png",
     "Price": 0.001604,
@@ -1823,7 +1823,7 @@
     "Source": "Essence",
     "Id": "lesser-essence-of-the-infinite",
     "Name": "Lesser Essence of the Infinite",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "lesser-essence-of-the-infinite",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRyaWJ1dGVFc3NlbmNlTGVzc2VyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6110d3af93/AttributeEssenceLesser.png",
     "Price": 0.00348,
@@ -1833,7 +1833,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-abrasion",
     "Name": "Perfect Essence of Abrasion",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-abrasion",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9690e5eb39/PhysicalEssencePerfect.png",
     "Price": 0.002997,
@@ -1843,7 +1843,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-alacrity",
     "Name": "Perfect Essence of Alacrity",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-alacrity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZENhc3RlckVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/7108cba28f/SpeedCasterEssencePerfect.png",
     "Price": 0.005419,
@@ -1853,7 +1853,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-battle",
     "Name": "Perfect Essence of Battle",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-battle",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4e86ee5d8d/AttackEssencePerfect.png",
     "Price": 0.01593,
@@ -1863,7 +1863,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-command",
     "Name": "Perfect Essence of Command",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-command",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0e06dceedc/AllyEssencePerfect.png",
     "Price": 0.0007263,
@@ -1873,7 +1873,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-electricity",
     "Name": "Perfect Essence of Electricity",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-electricity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8c53c73716/LightningEssencePerfect.png",
     "Price": 0.004604,
@@ -1883,7 +1883,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-enhancement",
     "Name": "Perfect Essence of Enhancement",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-enhancement",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EZWZlbmNlc0Vzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/dd5b00f215/DefencesEssencePerfect.png",
     "Price": 0.02698,
@@ -1893,7 +1893,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-flames",
     "Name": "Perfect Essence of Flames",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-flames",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d5669e7c9c/FireEssencePerfect.png",
     "Price": 0.002578,
@@ -1903,7 +1903,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-grounding",
     "Name": "Perfect Essence of Grounding",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-grounding",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdSZXNpc3RhbmNlRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/10c362c717/LightningResistanceEssencePerfect.png",
     "Price": 0.008852,
@@ -1913,7 +1913,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-haste",
     "Name": "Perfect Essence of Haste",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-haste",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/93df0c5b25/SpeedEssencePerfect.png",
     "Price": 0.02409,
@@ -1923,7 +1923,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-ice",
     "Name": "Perfect Essence of Ice",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-ice",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f4d0008973/ColdEssencePerfect.png",
     "Price": 0.003381,
@@ -1933,7 +1933,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-insulation",
     "Name": "Perfect Essence of Insulation",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-insulation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlUmVzaXN0YW5jZUVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/133d10b42e/FireResistanceEssencePerfect.png",
     "Price": 0.0006461,
@@ -1943,7 +1943,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-opulence",
     "Name": "Perfect Essence of Opulence",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-opulence",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9SYXJpdHlSZXNpc3RhbmNlRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/86dd0d0b4d/RarityResistanceEssencePerfect.png",
     "Price": 0.02652,
@@ -1953,7 +1953,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-ruin",
     "Name": "Perfect Essence of Ruin",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-ruin",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DaGFvc0Vzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ab17828e71/ChaosEssencePerfect.png",
     "Price": 0.001647,
@@ -1963,7 +1963,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-seeking",
     "Name": "Perfect Essence of Seeking",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-seeking",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Dcml0aWNhbEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3d5125e9d6/CriticalEssencePerfect.png",
     "Price": 0.02,
@@ -1973,7 +1973,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-sorcery",
     "Name": "Perfect Essence of Sorcery",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-sorcery",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5aa3698010/CasterEssencePerfect.png",
     "Price": 0.002881,
@@ -1983,7 +1983,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-thawing",
     "Name": "Perfect Essence of Thawing",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-thawing",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkUmVzaXN0YW5jZUVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/71b05376d6/ColdResistanceEssencePerfect.png",
     "Price": 0.004304,
@@ -1993,7 +1993,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-the-body",
     "Name": "Perfect Essence of the Body",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-the-body",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWZlRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/09083af8bb/LifeEssencePerfect.png",
     "Price": 0.0002272,
@@ -2003,7 +2003,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-the-infinite",
     "Name": "Perfect Essence of the Infinite",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-the-infinite",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRyaWJ1dGVFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ed201cbcb3/AttributeEssencePerfect.png",
     "Price": 0.06371,
@@ -2013,7 +2013,7 @@
     "Source": "Essence",
     "Id": "perfect-essence-of-the-mind",
     "Name": "Perfect Essence of the Mind",
-    "Category": "Essences",
+    "Category": "Essence",
     "DetailsId": "perfect-essence-of-the-mind",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9NYW5hRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/84410174b2/ManaEssencePerfect.png",
     "Price": 0.003904,
@@ -2263,7 +2263,7 @@
     "Source": "Omen",
     "Id": "an-audience-with-the-king",
     "Name": "An Audience with the King",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "an-audience-with-the-king",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUml0dWFsL1Zvb2Rvb0tpbmdFZmZpZ3kiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0b02c113cc/VoodooKingEffigy.png",
     "Price": 0.02941,
@@ -2273,7 +2273,7 @@
     "Source": "Omen",
     "Id": "head-of-the-king",
     "Name": "Head of the King",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "head-of-the-king",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9LaW5nb2Z0aGVNaXN0SGVhZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/254e341ba3/KingoftheMistHead.png",
     "Price": 2.25,
@@ -2283,7 +2283,7 @@
     "Source": "Omen",
     "Id": "omen-of-abyssal-echoes",
     "Name": "Omen of Abyssal Echoes",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-abyssal-echoes",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NSZXJvbGxPcHRpb25zIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9690f99016/OmenOnAbyssRerollOptions.png",
     "Price": 0.2481,
@@ -2293,7 +2293,7 @@
     "Source": "Omen",
     "Id": "omen-of-amelioration",
     "Name": "Omen of Amelioration",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-amelioration",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b5ee965352/VoodooOmens3Blue.png",
     "Price": 0.02948,
@@ -2303,7 +2303,7 @@
     "Source": "Omen",
     "Id": "omen-of-answered-prayers",
     "Name": "Omen of Answered Prayers",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-answered-prayers",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0Qmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ba21c85554/VoodooOmens4Blue.png",
     "Price": 0.09696,
@@ -2313,7 +2313,7 @@
     "Source": "Omen",
     "Id": "omen-of-bartering",
     "Name": "Omen of Bartering",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-bartering",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lblNlbGxWZW5kb3JSYW5kb21pc2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/12ef99da8b/OmenSellVendorRandomise.png",
     "Price": 0.0456,
@@ -2323,7 +2323,7 @@
     "Source": "Omen",
     "Id": "omen-of-catalysing-exaltation",
     "Name": "Omen of Catalysing Exaltation",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-catalysing-exaltation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uRXhhbHRDb25zdW1lUXVhbGl0eSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ca4d0db767/OmenOnExaltConsumeQuality.png",
     "Price": 0.01814,
@@ -2333,7 +2333,7 @@
     "Source": "Omen",
     "Id": "omen-of-chance",
     "Name": "Omen of Chance",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-chance",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhbmNlTm90RGVzdHJveSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/461b794959/OmenOnChanceNotDestroy.png",
     "Price": 24.47,
@@ -2343,7 +2343,7 @@
     "Source": "Omen",
     "Id": "omen-of-chaotic-effectiveness",
     "Name": "Omen of Chaotic Effectiveness",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-chaotic-effectiveness",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhb3NNYXBNb25zdGVyRWZmZWN0aXZlbmVzcyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/1dc9f3dea9/OmenOnChaosMapMonsterEffectiveness.png",
     "Price": 0.06174,
@@ -2353,7 +2353,7 @@
     "Source": "Omen",
     "Id": "omen-of-chaotic-monsters",
     "Name": "Omen of Chaotic Monsters",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-chaotic-monsters",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhb3NNYXBJdGVtUXVhbnRpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/dcd21d0252/OmenOnChaosMapItemQuantity.png",
     "Price": 0.278,
@@ -2363,7 +2363,7 @@
     "Source": "Omen",
     "Id": "omen-of-chaotic-quantity",
     "Name": "Omen of Chaotic Quantity",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-chaotic-quantity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhb3NNYXBQYWNrU2l6ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9ea6c86009/OmenOnChaosMapPackSize.png",
     "Price": 0.3662,
@@ -2373,7 +2373,7 @@
     "Source": "Omen",
     "Id": "omen-of-chaotic-rarity",
     "Name": "Omen of Chaotic Rarity",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-chaotic-rarity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhb3NNYXBJdGVtUmFyaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e7d9f8657d/OmenOnChaosMapItemRarity.png",
     "Price": 0.2713,
@@ -2383,7 +2383,7 @@
     "Source": "Omen",
     "Id": "omen-of-dextral-annulment",
     "Name": "Omen of Dextral Annulment",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-dextral-annulment",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d901658529/VoodooOmens3Purple.png",
     "Price": 9.45,
@@ -2393,7 +2393,7 @@
     "Source": "Omen",
     "Id": "omen-of-dextral-crystallisation",
     "Name": "Omen of Dextral Crystallisation",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-dextral-crystallisation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uUGVyZmVjdEVzc2VuY2VTdWZmaXgiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7ec019819e/OmenOnPerfectEssenceSuffix.png",
     "Price": 0.2965,
@@ -2403,7 +2403,7 @@
     "Source": "Omen",
     "Id": "omen-of-dextral-erasure",
     "Name": "Omen of Dextral Erasure",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-dextral-erasure",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6e2bb52963/VoodooOmens3Dark.png",
     "Price": 9,
@@ -2413,7 +2413,7 @@
     "Source": "Omen",
     "Id": "omen-of-dextral-exaltation",
     "Name": "Omen of Dextral Exaltation",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-dextral-exaltation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ed7cf06fa4/VoodooOmens3Yellow.png",
     "Price": 0.007596,
@@ -2423,7 +2423,7 @@
     "Source": "Omen",
     "Id": "omen-of-dextral-necromancy",
     "Name": "Omen of Dextral Necromancy",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-dextral-necromancy",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NBZGRTdWZmaXhlcyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/93e1dd20ce/OmenOnAbyssAddSuffixes.png",
     "Price": 0.002442,
@@ -2433,7 +2433,7 @@
     "Source": "Omen",
     "Id": "omen-of-gambling",
     "Name": "Omen of Gambling",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-gambling",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbkdhbWJsZU5vR29sZENvc3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/90225aff24/OmenGambleNoGoldCost.png",
     "Price": 0.001089,
@@ -2443,7 +2443,7 @@
     "Source": "Omen",
     "Id": "omen-of-greater-exaltation",
     "Name": "Omen of Greater Exaltation",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-greater-exaltation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/22d9b6478d/VoodooOmens1Yellow.png",
     "Price": 0.008645,
@@ -2453,7 +2453,7 @@
     "Source": "Omen",
     "Id": "omen-of-light",
     "Name": "Omen of Light",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-light",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQW5udWxSZW1vdmVBYnlzc01vZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/eb39bcb3d7/OmenOnAnnulRemoveAbyssMod.png",
     "Price": 9.75,
@@ -2463,7 +2463,7 @@
     "Source": "Omen",
     "Id": "omen-of-putrefaction",
     "Name": "Omen of Putrefaction",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-putrefaction",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NWZWlsQWxsQW5kQ29ycnVwdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8c706ec466/OmenOnAbyssVeilAllAndCorrupt.png",
     "Price": 0.0002389,
@@ -2473,7 +2473,7 @@
     "Source": "Omen",
     "Id": "omen-of-refreshment",
     "Name": "Omen of Refreshment",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-refreshment",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/213474d1d5/VoodooOmens1Blue.png",
     "Price": 0.001011,
@@ -2483,7 +2483,7 @@
     "Source": "Omen",
     "Id": "omen-of-reinforcements",
     "Name": "Omen of Reinforcements",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-reinforcements",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0UHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/bed352248c/VoodooOmens4Purple.png",
     "Price": 0.1158,
@@ -2493,7 +2493,7 @@
     "Source": "Omen",
     "Id": "omen-of-resurgence",
     "Name": "Omen of Resurgence",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-resurgence",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/044d5086da/VoodooOmens2Blue.png",
     "Price": 0.05709,
@@ -2503,7 +2503,7 @@
     "Source": "Omen",
     "Id": "omen-of-sanctification",
     "Name": "Omen of Sanctification",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-sanctification",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uRGl2aW5lU2FuY3RpZnkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/895416b2b9/OmenOnDivineSanctify.png",
     "Price": 0.2251,
@@ -2513,7 +2513,7 @@
     "Source": "Omen",
     "Id": "omen-of-secret-compartments",
     "Name": "Omen of Secret Compartments",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-secret-compartments",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0RGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/a152f2714f/VoodooOmens4Dark.png",
     "Price": 0.7831,
@@ -2523,7 +2523,7 @@
     "Source": "Omen",
     "Id": "omen-of-sinistral-annulment",
     "Name": "Omen of Sinistral Annulment",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-sinistral-annulment",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b9eaf38592/VoodooOmens2Purple.png",
     "Price": 13.26,
@@ -2533,7 +2533,7 @@
     "Source": "Omen",
     "Id": "omen-of-sinistral-crystallisation",
     "Name": "Omen of Sinistral Crystallisation",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-sinistral-crystallisation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uUGVyZmVjdEVzc2VuY2VQcmVmaXgiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/75263d6201/OmenOnPerfectEssencePrefix.png",
     "Price": 0.16,
@@ -2543,7 +2543,7 @@
     "Source": "Omen",
     "Id": "omen-of-sinistral-erasure",
     "Name": "Omen of Sinistral Erasure",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-sinistral-erasure",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0cfa6959be/VoodooOmens2Dark.png",
     "Price": 10.88,
@@ -2553,7 +2553,7 @@
     "Source": "Omen",
     "Id": "omen-of-sinistral-exaltation",
     "Name": "Omen of Sinistral Exaltation",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-sinistral-exaltation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6d316b47ee/VoodooOmens2Yellow.png",
     "Price": 0.05338,
@@ -2563,7 +2563,7 @@
     "Source": "Omen",
     "Id": "omen-of-sinistral-necromancy",
     "Name": "Omen of Sinistral Necromancy",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-sinistral-necromancy",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NBZGRQcmVmaXhlcyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/1c0a646414/OmenOnAbyssAddPrefixes.png",
     "Price": 0.001548,
@@ -2573,7 +2573,7 @@
     "Source": "Omen",
     "Id": "omen-of-the-ancients",
     "Name": "Omen of the Ancients",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-the-ancients",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQ2hhbmNlQW5jaWVudE9yYiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6392c12c6d/OmenOnChanceAncientOrb.png",
     "Price": 0.01821,
@@ -2583,7 +2583,7 @@
     "Source": "Omen",
     "Id": "omen-of-the-blackblooded",
     "Name": "Omen of the Blackblooded",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-the-blackblooded",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NHdWFyZW50ZWVkTGljaFR5cGVNb2QzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/7fe7335409/OmenOnAbyssGuarenteedLichTypeMod3.png",
     "Price": 0.09586,
@@ -2593,7 +2593,7 @@
     "Source": "Omen",
     "Id": "omen-of-the-blessed",
     "Name": "Omen of the Blessed",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-the-blessed",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uRGl2aW5lUmVyb2xsSW1wbGljaXRzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d910191d85/OmenOnDivineRerollImplicits.png",
     "Price": 0.18,
@@ -2603,7 +2603,7 @@
     "Source": "Omen",
     "Id": "omen-of-the-hunt",
     "Name": "Omen of the Hunt",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-the-hunt",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnM0R3JlZW4iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4800eedd0e/VoodooOmens4Green.png",
     "Price": 0.2477,
@@ -2613,7 +2613,7 @@
     "Source": "Omen",
     "Id": "omen-of-the-liege",
     "Name": "Omen of the Liege",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-the-liege",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NHdWFyZW50ZWVkTGljaFR5cGVNb2QyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/675e1d439a/OmenOnAbyssGuarenteedLichTypeMod2.png",
     "Price": 0.0002754,
@@ -2623,7 +2623,7 @@
     "Source": "Omen",
     "Id": "omen-of-the-sovereign",
     "Name": "Omen of the Sovereign",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-the-sovereign",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvT21lbk9uQWJ5c3NHdWFyZW50ZWVkTGljaFR5cGVNb2QxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a4962e6d7b/OmenOnAbyssGuarenteedLichTypeMod1.png",
     "Price": 0.01007,
@@ -2633,7 +2633,7 @@
     "Source": "Omen",
     "Id": "omen-of-whittling",
     "Name": "Omen of Whittling",
-    "Category": "Ritual",
+    "Category": "Omen",
     "DetailsId": "omen-of-whittling",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2dea0999d5/VoodooOmens1Dark.png",
     "Price": 8.82,
@@ -2643,967 +2643,967 @@
     "Source": "Sockets",
     "Id": "adept-rune",
     "Name": "Adept Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "adept-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRGV4UnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/efa54e5585/DexRune.png",
-    "Price": 0.03649,
-    "Volume": 0.2433
+    "Price": 0.03324,
+    "Volume": 0.1385
   },
   {
     "Source": "Sockets",
     "Id": "aldurs-legacy",
     "Name": "Aldur\u0027s Legacy",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "aldurs-legacy",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lVW5pcXVlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/0eca412563/GameWarpRuneUnique.png",
-    "Price": 279.6,
-    "Volume": 39290
+    "Price": 279.7,
+    "Volume": 37482
   },
   {
     "Source": "Sockets",
     "Id": "ancient-rune-of-animosity",
     "Name": "Ancient Rune of Animosity",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ancient-rune-of-animosity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmUxMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/be076d53b1/EndgameRune11.png",
-    "Price": 0.001405,
-    "Volume": 0.001405
+    "Price": 0.001624,
+    "Volume": 0.001624
   },
   {
     "Source": "Sockets",
     "Id": "ancient-rune-of-control",
     "Name": "Ancient Rune of Control",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ancient-rune-of-control",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmU2Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a665a28547/EndgameRune6.png",
-    "Price": 0.001277,
-    "Volume": 0.002342
+    "Price": 0.001392,
+    "Volume": 0.001856
   },
   {
     "Source": "Sockets",
     "Id": "ancient-rune-of-decay",
     "Name": "Ancient Rune of Decay",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ancient-rune-of-decay",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmU4Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/286c9a8814/EndgameRune8.png",
-    "Price": 0.007536,
-    "Volume": 0.04145
+    "Price": 0.009248,
+    "Volume": 0.04316
   },
   {
     "Source": "Sockets",
     "Id": "ancient-rune-of-detonation",
     "Name": "Ancient Rune of Detonation",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ancient-rune-of-detonation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmUxMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c8984790f5/EndgameRune12.png",
-    "Price": 0.01236,
-    "Volume": 0.07212
+    "Price": 0.01353,
+    "Volume": 0.07216
   },
   {
     "Source": "Sockets",
     "Id": "ancient-rune-of-discovery",
     "Name": "Ancient Rune of Discovery",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ancient-rune-of-discovery",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmU3Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2e401c0dba/EndgameRune7.png",
-    "Price": 0.005875,
-    "Volume": 0.01077
+    "Price": 0.005151,
+    "Volume": 0.008585
   },
   {
     "Source": "Sockets",
     "Id": "ancient-rune-of-dueling",
     "Name": "Ancient Rune of Dueling",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ancient-rune-of-dueling",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmUyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2ffedf320b/EndgameRune2.png",
-    "Price": 0.004309,
-    "Volume": 0.01077
+    "Price": 0.004269,
+    "Volume": 0.01067
   },
   {
     "Source": "Sockets",
     "Id": "ancient-rune-of-prowess",
     "Name": "Ancient Rune of Prowess",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ancient-rune-of-prowess",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmU1Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/12ef31a014/EndgameRune5.png",
-    "Price": 0.001297,
-    "Volume": 0.00281
+    "Price": 0.001266,
+    "Volume": 0.00232
   },
   {
     "Source": "Sockets",
     "Id": "ancient-rune-of-retaliation",
     "Name": "Ancient Rune of Retaliation",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ancient-rune-of-retaliation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmUxMyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/691bdfe6e3/EndgameRune13.png",
-    "Price": 0.003231,
-    "Volume": 0.005386
+    "Price": 0.00329,
+    "Volume": 0.006033
   },
   {
     "Source": "Sockets",
     "Id": "ancient-rune-of-shattering",
     "Name": "Ancient Rune of Shattering",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ancient-rune-of-shattering",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmU0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/0959cd6b7b/EndgameRune4.png",
-    "Price": 0.01637,
-    "Volume": 0.1255
+    "Price": 0.01616,
+    "Volume": 0.1239
   },
   {
     "Source": "Sockets",
     "Id": "ancient-rune-of-splinters",
     "Name": "Ancient Rune of Splinters",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ancient-rune-of-splinters",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmUxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c42839c4a9/EndgameRune1.png",
-    "Price": 0.0102,
-    "Volume": 0.1632
+    "Price": 0.009895,
+    "Volume": 0.1534
   },
   {
     "Source": "Sockets",
     "Id": "ancient-rune-of-the-horde",
     "Name": "Ancient Rune of the Horde",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ancient-rune-of-the-horde",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmUxMCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/72c7d9d707/EndgameRune10.png",
-    "Price": 0.003789,
-    "Volume": 0.02084
+    "Price": 0.00358,
+    "Volume": 0.01671
   },
   {
     "Source": "Sockets",
     "Id": "ancient-rune-of-the-titan",
     "Name": "Ancient Rune of the Titan",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ancient-rune-of-the-titan",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmUzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2f9ef606d4/EndgameRune3.png",
-    "Price": 0.01445,
-    "Volume": 0.06744
+    "Price": 0.01356,
+    "Volume": 0.06102
   },
   {
     "Source": "Sockets",
     "Id": "ancient-rune-of-witchcraft",
     "Name": "Ancient Rune of Witchcraft",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ancient-rune-of-witchcraft",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmU5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/24ef732cf3/EndgameRune9.png",
-    "Price": 0.005841,
-    "Volume": 0.08664
+    "Price": 0.005878,
+    "Volume": 0.07935
   },
   {
     "Source": "Sockets",
     "Id": "astrids-creativity",
     "Name": "Astrid\u0027s Creativity",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "astrids-creativity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/96e9eecf72/GameWarpRune1.png",
-    "Price": 3.7,
-    "Volume": 1938
+    "Price": 3.65,
+    "Volume": 1798
   },
   {
     "Source": "Sockets",
     "Id": "betrayal-of-aldur",
     "Name": "Betrayal of Aldur",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "betrayal-of-aldur",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWxlbWVudGFsQ29udmVyc2lvblJ1bmVDaGFvcyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/691fe14404/ElementalConversionRuneChaos.png",
-    "Price": 0.01133,
-    "Volume": 0.1756
+    "Price": 0.0115,
+    "Volume": 0.2032
   },
   {
     "Source": "Sockets",
     "Id": "body-rune",
     "Name": "Body Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "body-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a09dcb651b/LifeRune.png",
-    "Price": 0.1765,
-    "Volume": 1.29
+    "Price": 0.184,
+    "Volume": 1.07
   },
   {
     "Source": "Sockets",
     "Id": "breath-of-aldur",
     "Name": "Breath of Aldur",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "breath-of-aldur",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWxlbWVudGFsQ29udmVyc2lvblJ1bmVDb2xkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/508c419670/ElementalConversionRuneCold.png",
-    "Price": 0.003961,
-    "Volume": 0.1716
+    "Price": 0.004491,
+    "Volume": 0.1654
   },
   {
     "Source": "Sockets",
     "Id": "cadigans-epiphany",
     "Name": "Cadigan\u0027s Epiphany",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "cadigans-epiphany",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lMyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/884c6d6f83/GameWarpRune3.png",
-    "Price": 0.5318,
-    "Volume": 94.49
+    "Price": 0.5263,
+    "Volume": 84.91
   },
   {
     "Source": "Sockets",
     "Id": "charging-rune",
     "Name": "Charging Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "charging-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvV2FyZFJlZ2VuZXJhdGlvbk5vcm1hbCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2c850d510c/WardRegenerationNormal.png",
-    "Price": 0.005219,
-    "Volume": 0.006088
+    "Price": 0.005104,
+    "Volume": 0.005104
   },
   {
     "Source": "Sockets",
     "Id": "countess-seskes-rune-of-archery",
     "Name": "Countess Seske\u0027s Rune of Archery",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "countess-seskes-rune-of-archery",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8e738ce3cb/NewRune14.png",
-    "Price": 0.01625,
-    "Volume": 1.8
+    "Price": 0.0166,
+    "Volume": 1.71
   },
   {
     "Source": "Sockets",
     "Id": "courtesan-mannans-rune-of-cruelty",
     "Name": "Courtesan Mannan\u0027s Rune of Cruelty",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "courtesan-mannans-rune-of-cruelty",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTExIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/da1b427b23/NewRune11.png",
-    "Price": 0.01092,
-    "Volume": 0.6423
+    "Price": 0.005342,
+    "Volume": 0.3169
   },
   {
     "Source": "Sockets",
     "Id": "craiceanns-rune-of-recovery",
     "Name": "Craiceann\u0027s Rune of Recovery",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "craiceanns-rune-of-recovery",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEwIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/96c722e7d3/NewRune10.png",
-    "Price": 0.01342,
-    "Volume": 0.814
+    "Price": 0.01323,
+    "Volume": 0.7585
   },
   {
     "Source": "Sockets",
     "Id": "craiceanns-rune-of-warding",
     "Name": "Craiceann\u0027s Rune of Warding",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "craiceanns-rune-of-warding",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/677fca20e0/NewRune6.png",
-    "Price": 0.0253,
-    "Volume": 2.44
+    "Price": 0.02419,
+    "Volume": 2.24
   },
   {
     "Source": "Sockets",
     "Id": "desert-rune",
     "Name": "Desert Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "desert-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/eeabf0e7a0/FireRune.png",
-    "Price": 0.01294,
-    "Volume": 0.2674
+    "Price": 0.01367,
+    "Volume": 0.287
   },
   {
     "Source": "Sockets",
     "Id": "emergent-instinct",
     "Name": "Emergent Instinct",
-    "Category": "Expedition",
+    "Category": "Sockets",
     "DetailsId": "emergent-instinct",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvbldhckFuY2llbnRBdWdtZW50Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cc4d7ae04b/ExpeditionWarAncientAugment.png",
-    "Price": 0.5779,
-    "Volume": 6.36
+    "Price": 0.2927,
+    "Volume": 2.54
   },
   {
     "Source": "Sockets",
     "Id": "emergent-possibility",
     "Name": "Emergent Possibility",
-    "Category": "Expedition",
+    "Category": "Sockets",
     "DetailsId": "emergent-possibility",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvblNjaWVuY2VBbmNpZW50QXVnbWVudCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5f08e97fb9/ExpeditionScienceAncientAugment.png",
-    "Price": 26.98,
-    "Volume": 800.5
+    "Price": 27.47,
+    "Volume": 815
   },
   {
     "Source": "Sockets",
     "Id": "emergent-protection",
     "Name": "Emergent Protection",
-    "Category": "Expedition",
+    "Category": "Sockets",
     "DetailsId": "emergent-protection",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvblZhbG9yQW5jaWVudEF1Z21lbnQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/17ab658563/ExpeditionValorAncientAugment.png",
-    "Price": 0.03992,
-    "Volume": 0.4325
+    "Price": 0.04712,
+    "Volume": 0.4555
   },
   {
     "Source": "Sockets",
     "Id": "emergent-vigour",
     "Name": "Emergent Vigour",
-    "Category": "Expedition",
+    "Category": "Sockets",
     "DetailsId": "emergent-vigour",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRXhwZWRpdGlvblJlbGlnaW9uQW5jaWVudEF1Z21lbnQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/508419c851/ExpeditionReligionAncientAugment.png",
-    "Price": 6.58,
-    "Volume": 167.7
+    "Price": 6.71,
+    "Volume": 144.3
   },
   {
     "Source": "Sockets",
     "Id": "farruls-rune-of-grace",
     "Name": "Farrul\u0027s Rune of Grace",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "farruls-rune-of-grace",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1ca9b19776/NewRune4.png",
-    "Price": 0.008158,
-    "Volume": 0.0843
+    "Price": 0.008306,
+    "Volume": 0.08306
   },
   {
     "Source": "Sockets",
     "Id": "farruls-rune-of-the-chase",
     "Name": "Farrul\u0027s Rune of the Chase",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "farruls-rune-of-the-chase",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5029b70d64/NewRune5.png",
-    "Price": 0.02841,
-    "Volume": 9.51
+    "Price": 0.02814,
+    "Volume": 9.04
   },
   {
     "Source": "Sockets",
     "Id": "farruls-rune-of-the-hunt",
     "Name": "Farrul\u0027s Rune of the Hunt",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "farruls-rune-of-the-hunt",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8040a2785b/NewRune9.png",
-    "Price": 0.02289,
-    "Volume": 3.62
+    "Price": 0.01587,
+    "Volume": 2.55
   },
   {
     "Source": "Sockets",
     "Id": "fenumus-rune-of-agony",
     "Name": "Fenumus\u0027 Rune of Agony",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "fenumus-rune-of-agony",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b8711ef6c2/NewRune3.png",
-    "Price": 0.02233,
-    "Volume": 1.84
+    "Price": 0.02168,
+    "Volume": 1.75
   },
   {
     "Source": "Sockets",
     "Id": "fenumus-rune-of-draining",
     "Name": "Fenumus\u0027 Rune of Draining",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "fenumus-rune-of-draining",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE2Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4753a65a2a/NewRune16.png",
-    "Price": 0.0124,
-    "Volume": 0.4072
+    "Price": 0.01,
+    "Volume": 0.145
   },
   {
     "Source": "Sockets",
     "Id": "fenumus-rune-of-spinning",
     "Name": "Fenumus\u0027 Rune of Spinning",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "fenumus-rune-of-spinning",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d0e9100877/NewRune13.png",
-    "Price": 0.01711,
+    "Price": 0.0174,
     "Volume": 1.76
   },
   {
     "Source": "Sockets",
     "Id": "glacial-rune",
     "Name": "Glacial Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "glacial-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/499bfe179a/ColdRune.png",
-    "Price": 0.03351,
-    "Volume": 0.5585
+    "Price": 0.02851,
+    "Volume": 0.4466
   },
   {
     "Source": "Sockets",
     "Id": "greater-adept-rune",
     "Name": "Greater Adept Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-adept-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRGV4UnVuZVRpZXIzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cf55763192/DexRuneTier3.png",
-    "Price": 0.002871,
-    "Volume": 0.1766
+    "Price": 0.002773,
+    "Volume": 0.165
   },
   {
     "Source": "Sockets",
     "Id": "greater-body-rune",
     "Name": "Greater Body Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-body-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c553b97136/LifeRuneTier2.png",
-    "Price": 0.002319,
-    "Volume": 0.2887
+    "Price": 0.002625,
+    "Volume": 0.3088
   },
   {
     "Source": "Sockets",
     "Id": "greater-charging-rune",
     "Name": "Greater Charging Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-charging-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvV2FyZFJlZ2VuZXJhdGlvbkdyZWF0ZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/96b3b4550d/WardRegenerationGreater.png",
-    "Price": 0.01903,
-    "Volume": 0.6154
+    "Price": 0.01178,
+    "Volume": 0.3789
   },
   {
     "Source": "Sockets",
     "Id": "greater-desert-rune",
     "Name": "Greater Desert Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-desert-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2c6986b94c/FireRuneTier2.png",
-    "Price": 0.0005427,
-    "Volume": 0.1384
+    "Price": 0.0005824,
+    "Volume": 0.1457
   },
   {
     "Source": "Sockets",
     "Id": "greater-glacial-rune",
     "Name": "Greater Glacial Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-glacial-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9770dc929d/ColdRuneTier2.png",
-    "Price": 0.0006878,
-    "Volume": 0.1592
+    "Price": 0.0006796,
+    "Volume": 0.1529
   },
   {
     "Source": "Sockets",
     "Id": "greater-inspiration-rune",
     "Name": "Greater Inspiration Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-inspiration-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJlY292ZXJ5UnVuZVRpZXIyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9c6cc572d8/ManaRecoveryRuneTier2.png",
-    "Price": 0.00111,
-    "Volume": 0.0555
+    "Price": 0.0008628,
+    "Volume": 0.02761
   },
   {
     "Source": "Sockets",
     "Id": "greater-iron-rune",
     "Name": "Greater Iron Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-iron-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5fdc6a72ed/EnhanceRuneTier2.png",
-    "Price": 0.007106,
-    "Volume": 18.84
+    "Price": 0.006515,
+    "Volume": 16.8
   },
   {
     "Source": "Sockets",
     "Id": "greater-mind-rune",
     "Name": "Greater Mind Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-mind-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/49619b701f/ManaRuneTier2.png",
-    "Price": 0.007605,
-    "Volume": 2.69
+    "Price": 0.007326,
+    "Volume": 2.36
   },
   {
     "Source": "Sockets",
     "Id": "greater-rebirth-rune",
     "Name": "Greater Rebirth Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-rebirth-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJlY292ZXJ5UnVuZVRpZXIyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/41b22fb4e5/LifeRecoveryRuneTier2.png",
-    "Price": 0.000531,
-    "Volume": 0.03372
+    "Price": 0.0006158,
+    "Volume": 0.02761
   },
   {
     "Source": "Sockets",
     "Id": "greater-resolve-rune",
     "Name": "Greater Resolve Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-resolve-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvSW50UnVuZVRpZXIzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/badef31810/IntRuneTier3.png",
-    "Price": 0.006809,
-    "Volume": 0.5175
+    "Price": 0.005255,
+    "Volume": 0.494
   },
   {
     "Source": "Sockets",
     "Id": "greater-robust-rune",
     "Name": "Greater Robust Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-robust-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3RyZW5ndGhSdW5lVGllcjMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bb0d433340/StrengthRuneTier3.png",
-    "Price": 0.005925,
-    "Volume": 0.6587
+    "Price": 0.003389,
+    "Volume": 0.4123
   },
   {
     "Source": "Sockets",
     "Id": "greater-rune-of-alacrity",
     "Name": "Greater Rune of Alacrity",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-rune-of-alacrity",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVNwZWNpYWwzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/633300b884/LightningRuneSpecial3.png",
-    "Price": 1.42,
-    "Volume": 89
+    "Price": 1.41,
+    "Volume": 86
   },
   {
     "Source": "Sockets",
     "Id": "greater-rune-of-leadership",
     "Name": "Greater Rune of Leadership",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-rune-of-leadership",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVNwZWNpYWwxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/81a3fe75a5/LightningRuneSpecial1.png",
-    "Price": 2.07,
-    "Volume": 140.3
+    "Price": 2.03,
+    "Volume": 130.5
   },
   {
     "Source": "Sockets",
     "Id": "greater-rune-of-nobility",
     "Name": "Greater Rune of Nobility",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-rune-of-nobility",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVNwZWNpYWw0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5ffcde6ca9/LightningRuneSpecial4.png",
-    "Price": 0.006729,
-    "Volume": 0.04262
+    "Price": 0.006587,
+    "Volume": 0.04501
   },
   {
     "Source": "Sockets",
     "Id": "greater-rune-of-tithing",
     "Name": "Greater Rune of Tithing",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-rune-of-tithing",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVNwZWNpYWwyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/369dd670ba/LightningRuneSpecial2.png",
-    "Price": 0.2812,
-    "Volume": 10.31
+    "Price": 0.2483,
+    "Volume": 8.15
   },
   {
     "Source": "Sockets",
     "Id": "greater-stone-rune",
     "Name": "Greater Stone Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-stone-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3R1blJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/836627f793/StunRuneTier2.png",
-    "Price": 0.0001147,
-    "Volume": 0.00281
+    "Price": 0.0001174,
+    "Volume": 0.001624
   },
   {
     "Source": "Sockets",
     "Id": "greater-storm-rune",
     "Name": "Greater Storm Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-storm-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVRpZXIyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/47c9eb3f9e/LightningRuneTier2.png",
-    "Price": 0.0011,
-    "Volume": 0.3178
+    "Price": 0.00137,
+    "Volume": 0.3469
   },
   {
     "Source": "Sockets",
     "Id": "greater-vision-rune",
     "Name": "Greater Vision Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-vision-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQWNjdXJhY3lSdW5lVGllcjIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/88ab9b96b4/AccuracyRuneTier2.png",
-    "Price": 0.001555,
-    "Volume": 0.1967
+    "Price": 0.001734,
+    "Volume": 0.2297
   },
   {
     "Source": "Sockets",
     "Id": "greater-ward-rune",
     "Name": "Greater Ward Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "greater-ward-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvQWRkZWRXYXJkR3JlYXRlciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/84597a7e30/AddedWardGreater.png",
-    "Price": 0.06216,
-    "Volume": 3.98
+    "Price": 0.0671,
+    "Volume": 4.51
   },
   {
     "Source": "Sockets",
     "Id": "hedgewitch-assandras-rune-of-wisdom",
     "Name": "Hedgewitch Assandra\u0027s Rune of Wisdom",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "hedgewitch-assandras-rune-of-wisdom",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ea21196cfb/NewRune1.png",
-    "Price": 0.08552,
-    "Volume": 26.2
+    "Price": 0.08958,
+    "Volume": 25.22
   },
   {
     "Source": "Sockets",
     "Id": "inspiration-rune",
     "Name": "Inspiration Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "inspiration-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJlY292ZXJ5UnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5154db8cf8/ManaRecoveryRune.png",
-    "Price": 0.07025,
-    "Volume": 0.09367
+    "Price": 0.06961,
+    "Volume": 0.09281
   },
   {
     "Source": "Sockets",
     "Id": "ire-of-aldur",
     "Name": "Ire of Aldur",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ire-of-aldur",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWxlbWVudGFsQ29udmVyc2lvblJ1bmVMaWdodG5pbmciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/73938a519b/ElementalConversionRuneLightning.png",
-    "Price": 0.005367,
-    "Volume": 0.1091
+    "Price": 0.005175,
+    "Volume": 0.07935
   },
   {
     "Source": "Sockets",
     "Id": "iron-rune",
     "Name": "Iron Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "iron-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/cfeb426ee0/EnhanceRune.png",
-    "Price": 0.1016,
-    "Volume": 5.28
+    "Price": 0.09806,
+    "Volume": 4.67
   },
   {
     "Source": "Sockets",
     "Id": "katlas-gloom",
     "Name": "Katla\u0027s Gloom",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "katlas-gloom",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lQ2hhb3MiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c59f912034/GameWarpRuneChaos.png",
-    "Price": 0.05741,
-    "Volume": 3.92
+    "Price": 0.06306,
+    "Volume": 4.19
   },
   {
     "Source": "Sockets",
     "Id": "kolrs-hunt",
     "Name": "Kolr\u0027s Hunt",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "kolrs-hunt",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lRGV4Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/27b68d6b1e/GameWarpRuneDex.png",
-    "Price": 0.3905,
-    "Volume": 67.55
+    "Price": 0.4103,
+    "Volume": 72.76
   },
   {
     "Source": "Sockets",
     "Id": "lady-hestras-rune-of-winter",
     "Name": "Lady Hestra\u0027s Rune of Winter",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lady-hestras-rune-of-winter",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE4Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/709f1d7a0e/NewRune18.png",
-    "Price": 0.001405,
-    "Volume": 0.007962
+    "Price": 0.001392,
+    "Volume": 0.006729
   },
   {
     "Source": "Sockets",
     "Id": "lesser-adept-rune",
     "Name": "Lesser Adept Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-adept-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRGV4UnVuZVRpZXIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/1a9c8cae19/DexRuneTier1.png",
-    "Price": 0.05605,
-    "Volume": 1.39
+    "Price": 0.05735,
+    "Volume": 0.4875
   },
   {
     "Source": "Sockets",
     "Id": "lesser-body-rune",
     "Name": "Lesser Body Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-body-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/edcef0a1c6/LifeRuneTier1.png",
-    "Price": 0.02699,
-    "Volume": 0.5758
+    "Price": 0.03223,
+    "Volume": 1.04
   },
   {
     "Source": "Sockets",
     "Id": "lesser-desert-rune",
     "Name": "Lesser Desert Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-desert-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/fdc8d95dd7/FireRuneTier1.png",
-    "Price": 0.01198,
-    "Volume": 0.2117
+    "Price": 0.01203,
+    "Volume": 0.1745
   },
   {
     "Source": "Sockets",
     "Id": "lesser-glacial-rune",
     "Name": "Lesser Glacial Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-glacial-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/69c7e6d2a3/ColdRuneTier1.png",
-    "Price": 0.007699,
-    "Volume": 0.1925
+    "Price": 0.01257,
+    "Volume": 0.2745
   },
   {
     "Source": "Sockets",
     "Id": "lesser-inspiration-rune",
     "Name": "Lesser Inspiration Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-inspiration-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJlY292ZXJ5UnVuZVRpZXIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/965d9a093b/ManaRecoveryRuneTier1.png",
-    "Price": 0.005932,
-    "Volume": 0.008898
+    "Price": 0.004002,
+    "Volume": 0.005336
   },
   {
     "Source": "Sockets",
     "Id": "lesser-iron-rune",
     "Name": "Lesser Iron Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-iron-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/719e7a07b9/EnhanceRuneTier1.png",
-    "Price": 0.02867,
-    "Volume": 3.74
+    "Price": 0.03306,
+    "Volume": 3.71
   },
   {
     "Source": "Sockets",
     "Id": "lesser-mind-rune",
     "Name": "Lesser Mind Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-mind-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/7ae4e735dd/ManaRuneTier1.png",
-    "Price": 0.0005176,
-    "Volume": 0.001639
+    "Price": 0.0005568,
+    "Volume": 0.001392
   },
   {
     "Source": "Sockets",
     "Id": "lesser-rebirth-rune",
     "Name": "Lesser Rebirth Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-rebirth-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJlY292ZXJ5UnVuZVRpZXIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6ef2915508/LifeRecoveryRuneTier1.png",
-    "Price": 0.01255,
-    "Volume": 0.03138
+    "Price": 0.007068,
+    "Volume": 0.01531
   },
   {
     "Source": "Sockets",
     "Id": "lesser-resolve-rune",
     "Name": "Lesser Resolve Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-resolve-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvSW50UnVuZVRpZXIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5d21464699/IntRuneTier1.png",
-    "Price": 0.05779,
-    "Volume": 0.5779
+    "Price": 0.06482,
+    "Volume": 0.497
   },
   {
     "Source": "Sockets",
     "Id": "lesser-robust-rune",
     "Name": "Lesser Robust Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-robust-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3RyZW5ndGhSdW5lVGllcjEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a90800a313/StrengthRuneTier1.png",
-    "Price": 0.1124,
-    "Volume": 3.5
+    "Price": 0.1298,
+    "Volume": 4.11
   },
   {
     "Source": "Sockets",
     "Id": "lesser-stone-rune",
     "Name": "Lesser Stone Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-stone-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3R1blJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/904db23238/StunRuneTier1.png",
-    "Price": 0.0002342,
-    "Volume": 0.0002342
+    "Price": 0.000232,
+    "Volume": 0.000232
   },
   {
     "Source": "Sockets",
     "Id": "lesser-storm-rune",
     "Name": "Lesser Storm Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-storm-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVRpZXIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c84f26f318/LightningRuneTier1.png",
-    "Price": 0.01458,
-    "Volume": 1.29
+    "Price": 0.01478,
+    "Volume": 1.24
   },
   {
     "Source": "Sockets",
     "Id": "lesser-vision-rune",
     "Name": "Lesser Vision Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-vision-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQWNjdXJhY3lSdW5lVGllcjEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2a3b508ed5/AccuracyRuneTier1.png",
-    "Price": 0.0008196,
-    "Volume": 0.001639
+    "Price": 0.0008121,
+    "Volume": 0.001624
   },
   {
     "Source": "Sockets",
     "Id": "lesser-ward-rune",
     "Name": "Lesser Ward Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "lesser-ward-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvQWRkZWRXYXJkTGVzc2VyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/35e18e19ac/AddedWardLesser.png",
-    "Price": 0.007779,
-    "Volume": 0.14
+    "Price": 0.009478,
+    "Volume": 0.1485
   },
   {
     "Source": "Sockets",
     "Id": "masterwork-rune",
     "Name": "Masterwork Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "masterwork-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvVXBncmFkZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/3f224b0821/UpgradeRune.png",
-    "Price": 0.7979,
-    "Volume": 1029
+    "Price": 0.7941,
+    "Volume": 985.7
   },
   {
     "Source": "Sockets",
     "Id": "medveds-tending",
     "Name": "Medved\u0027s Tending",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "medveds-tending",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lQ29sZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/1eeef7fd0e/GameWarpRuneCold.png",
-    "Price": 0.07668,
-    "Volume": 6.29
+    "Price": 0.1017,
+    "Volume": 10.27
   },
   {
     "Source": "Sockets",
     "Id": "mind-rune",
     "Name": "Mind Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "mind-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4be6331480/ManaRune.png",
-    "Price": 0.01736,
-    "Volume": 0.09835
+    "Price": 0.01738,
+    "Volume": 0.09559
   },
   {
     "Source": "Sockets",
     "Id": "passion-of-aldur",
     "Name": "Passion of Aldur",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "passion-of-aldur",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWxlbWVudGFsQ29udmVyc2lvblJ1bmVGaXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f51f9e7f30/ElementalConversionRuneFire.png",
-    "Price": 0.002534,
-    "Volume": 0.02365
+    "Price": 0.00257,
+    "Volume": 0.02227
   },
   {
     "Source": "Sockets",
     "Id": "perfect-adept-rune",
     "Name": "Perfect Adept Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-adept-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVEZXh0ZXJpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/33ddcdf769/PerfectRuneDexterity.png",
-    "Price": 1.93,
-    "Volume": 19.33
+    "Price": 1.85,
+    "Volume": 14.5
   },
   {
     "Source": "Sockets",
     "Id": "perfect-body-rune",
     "Name": "Perfect Body Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-body-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVMaWZlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/77d2019212/PerfectRuneLife.png",
-    "Price": 1.97,
-    "Volume": 64.17
+    "Price": 1.96,
+    "Volume": 68.67
   },
   {
     "Source": "Sockets",
     "Id": "perfect-charging-rune",
     "Name": "Perfect Charging Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-charging-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvV2FyZFJlZ2VuZXJhdGlvblBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/77fdb3f9be/WardRegenerationPerfect.png",
-    "Price": 1.85,
-    "Volume": 14.17
+    "Price": 1.92,
+    "Volume": 11.83
   },
   {
     "Source": "Sockets",
     "Id": "perfect-desert-rune",
     "Name": "Perfect Desert Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-desert-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVGaXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b398960637/PerfectRuneFire.png",
-    "Price": 1.94,
-    "Volume": 65.33
+    "Price": 1.96,
+    "Volume": 72.67
   },
   {
     "Source": "Sockets",
     "Id": "perfect-glacial-rune",
     "Name": "Perfect Glacial Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-glacial-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVDb2xkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5f8f2f9b29/PerfectRuneCold.png",
-    "Price": 2,
-    "Volume": 77.33
+    "Price": 2.03,
+    "Volume": 80.67
   },
   {
     "Source": "Sockets",
     "Id": "perfect-inspiration-rune",
     "Name": "Perfect Inspiration Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-inspiration-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVNYW5hUmVjb3ZlcnkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0941528f57/PerfectRuneManaRecovery.png",
-    "Price": 1.52,
-    "Volume": 47.5
+    "Price": 1.51,
+    "Volume": 35
   },
   {
     "Source": "Sockets",
     "Id": "perfect-iron-rune",
     "Name": "Perfect Iron Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-iron-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVFbmhhbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4e46d225f8/PerfectRuneEnhance.png",
-    "Price": 1.5,
-    "Volume": 608.2
+    "Price": 1.49,
+    "Volume": 582.8
   },
   {
     "Source": "Sockets",
     "Id": "perfect-mind-rune",
     "Name": "Perfect Mind Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-mind-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVNYW5hIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/96a5dfe7d6/PerfectRuneMana.png",
-    "Price": 1.86,
-    "Volume": 197.7
+    "Price": 1.78,
+    "Volume": 193.7
   },
   {
     "Source": "Sockets",
     "Id": "perfect-rebirth-rune",
     "Name": "Perfect Rebirth Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-rebirth-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVMaWZlUmVjb3ZlcnkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/dc0702aabd/PerfectRuneLifeRecovery.png",
-    "Price": 1.98,
-    "Volume": 14.17
+    "Price": 1.97,
+    "Volume": 11.83
   },
   {
     "Source": "Sockets",
     "Id": "perfect-resolve-rune",
     "Name": "Perfect Resolve Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-resolve-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVJbnRlbGxpZ2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9c387ac5f1/PerfectRuneIntelligence.png",
     "Price": 2,
-    "Volume": 37
+    "Volume": 36.67
   },
   {
     "Source": "Sockets",
     "Id": "perfect-robust-rune",
     "Name": "Perfect Robust Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-robust-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVTdHJlbmd0aCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/ab65433f7e/PerfectRuneStrength.png",
-    "Price": 1.97,
-    "Volume": 38.17
+    "Price": 1.98,
+    "Volume": 36.67
   },
   {
     "Source": "Sockets",
     "Id": "perfect-stone-rune",
     "Name": "Perfect Stone Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-stone-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVTdHVuIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/063776d28b/PerfectRuneStun.png",
     "Price": 2,
-    "Volume": 1.33
+    "Volume": 1
   },
   {
     "Source": "Sockets",
     "Id": "perfect-storm-rune",
     "Name": "Perfect Storm Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-storm-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVMaWdodG5pbmciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d08ab44bac/PerfectRuneLightning.png",
-    "Price": 1.94,
-    "Volume": 115.2
+    "Price": 1.95,
+    "Volume": 115.5
   },
   {
     "Source": "Sockets",
     "Id": "perfect-vision-rune",
     "Name": "Perfect Vision Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-vision-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVBY2N1cmFjeSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4b7c49d286/PerfectRuneAccuracy.png",
-    "Price": 1.96,
-    "Volume": 63.33
+    "Price": 2.04,
+    "Volume": 64.83
   },
   {
     "Source": "Sockets",
     "Id": "perfect-ward-rune",
     "Name": "Perfect Ward Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "perfect-ward-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvQWRkZWRXYXJkUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/aea05784dd/AddedWardPerfect.png",
-    "Price": 2.13,
-    "Volume": 32.67
+    "Price": 2.3,
+    "Volume": 33.67
   },
   {
     "Source": "Sockets",
     "Id": "rebirth-rune",
     "Name": "Rebirth Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rebirth-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJlY292ZXJ5UnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/bbbb060773/LifeRecoveryRune.png",
     "Price": 1,
@@ -3613,297 +3613,297 @@
     "Source": "Sockets",
     "Id": "resolve-rune",
     "Name": "Resolve Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "resolve-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvSW50UnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/d988cf54fc/IntRune.png",
-    "Price": 0.0498,
-    "Volume": 0.4482
+    "Price": 0.048,
+    "Volume": 0.432
   },
   {
     "Source": "Sockets",
     "Id": "robust-rune",
     "Name": "Robust Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "robust-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3RyZW5ndGhSdW5lIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/1e585207d2/StrengthRune.png",
-    "Price": 0.03462,
-    "Volume": 0.3866
+    "Price": 0.03089,
+    "Volume": 0.3295
   },
   {
     "Source": "Sockets",
     "Id": "rune-of-accumulation",
     "Name": "Rune of Accumulation",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rune-of-accumulation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lNiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b26a551271/EarlyMythicRune6.png",
-    "Price": 0.008638,
-    "Volume": 0.4175
+    "Price": 0.009769,
+    "Volume": 0.4608
   },
   {
     "Source": "Sockets",
     "Id": "rune-of-acrobatics",
     "Name": "Rune of Acrobatics",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rune-of-acrobatics",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/88b5625697/EarlyMythicRune3.png",
-    "Price": 0.01558,
-    "Volume": 0.761
+    "Price": 0.01496,
+    "Volume": 0.678
   },
   {
     "Source": "Sockets",
     "Id": "rune-of-confrontation",
     "Name": "Rune of Confrontation",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rune-of-confrontation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/159530efbe/EarlyMythicRune13.png",
-    "Price": 0.002154,
-    "Volume": 0.005386
+    "Price": 0.002624,
+    "Volume": 0.01137
   },
   {
     "Source": "Sockets",
     "Id": "rune-of-consistency",
     "Name": "Rune of Consistency",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rune-of-consistency",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMTAiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/11d6563136/EarlyMythicRune10.png",
-    "Price": 0.008243,
-    "Volume": 0.06182
+    "Price": 0.009084,
+    "Volume": 0.06056
   },
   {
     "Source": "Sockets",
     "Id": "rune-of-culmination",
     "Name": "Rune of Culmination",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rune-of-culmination",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lNCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c3b6dea9ad/EarlyMythicRune4.png",
-    "Price": 0.02099,
-    "Volume": 0.5878
+    "Price": 0.02299,
+    "Volume": 0.5517
   },
   {
     "Source": "Sockets",
     "Id": "rune-of-foundations",
     "Name": "Rune of Foundations",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rune-of-foundations",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lNyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3798b31b1e/EarlyMythicRune7.png",
-    "Price": 0.04989,
-    "Volume": 5.24
+    "Price": 0.05363,
+    "Volume": 5.22
   },
   {
     "Source": "Sockets",
     "Id": "rune-of-reach",
     "Name": "Rune of Reach",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rune-of-reach",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7da4b6b2b3/EarlyMythicRune11.png",
-    "Price": 0.01206,
-    "Volume": 0.1407
+    "Price": 0.01043,
+    "Volume": 0.113
   },
   {
     "Source": "Sockets",
     "Id": "rune-of-renown",
     "Name": "Rune of Renown",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rune-of-renown",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lNSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9af5cf6ac2/EarlyMythicRune5.png",
-    "Price": 0.0277,
-    "Volume": 1.38
+    "Price": 0.02836,
+    "Volume": 1.29
   },
   {
     "Source": "Sockets",
     "Id": "rune-of-the-blossom",
     "Name": "Rune of the Blossom",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rune-of-the-blossom",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lOSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b36a935747/EarlyMythicRune9.png",
-    "Price": 0.03931,
-    "Volume": 4.65
+    "Price": 0.0414,
+    "Volume": 4.57
   },
   {
     "Source": "Sockets",
     "Id": "rune-of-the-hunt",
     "Name": "Rune of the Hunt",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rune-of-the-hunt",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5247f756b7/EarlyMythicRune2.png",
-    "Price": 0.01639,
-    "Volume": 0.7948
+    "Price": 0.01692,
+    "Volume": 0.781
   },
   {
     "Source": "Sockets",
     "Id": "rune-of-the-prism",
     "Name": "Rune of the Prism",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rune-of-the-prism",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lOCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f2f016e6cd/EarlyMythicRune8.png",
-    "Price": 0.02003,
-    "Volume": 0.8645
+    "Price": 0.01252,
+    "Volume": 0.4884
   },
   {
     "Source": "Sockets",
     "Id": "rune-of-vital-flame",
     "Name": "Rune of Vital Flame",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rune-of-vital-flame",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9662dc131d/EarlyMythicRune12.png",
-    "Price": 0.001405,
-    "Volume": 0.007727
+    "Price": 0.001228,
+    "Volume": 0.006961
   },
   {
     "Source": "Sockets",
     "Id": "rune-of-vitality",
     "Name": "Rune of Vitality",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "rune-of-vitality",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6c7659e613/EarlyMythicRune1.png",
-    "Price": 0.01903,
-    "Volume": 0.3426
+    "Price": 0.01741,
+    "Volume": 0.3019
   },
   {
     "Source": "Sockets",
     "Id": "saqawals-rune-of-erosion",
     "Name": "Saqawal\u0027s Rune of Erosion",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "saqawals-rune-of-erosion",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTgiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/63347aa4f1/NewRune8.png",
-    "Price": 0.005642,
-    "Volume": 0.05924
+    "Price": 0.004238,
+    "Volume": 0.04803
   },
   {
     "Source": "Sockets",
     "Id": "saqawals-rune-of-memory",
     "Name": "Saqawal\u0027s Rune of Memory",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "saqawals-rune-of-memory",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6a71f0e666/NewRune7.png",
-    "Price": 0.01151,
-    "Volume": 0.6999
+    "Price": 0.01175,
+    "Volume": 0.6835
   },
   {
     "Source": "Sockets",
     "Id": "saqawals-rune-of-the-sky",
     "Name": "Saqawal\u0027s Rune of the Sky",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "saqawals-rune-of-the-sky",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7c3f68cf1c/NewRune2.png",
-    "Price": 0.02472,
-    "Volume": 7.03
+    "Price": 0.02507,
+    "Volume": 6.78
   },
   {
     "Source": "Sockets",
     "Id": "serles-triumph",
     "Name": "Serle\u0027s Triumph",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "serles-triumph",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4a1b9c272c/GameWarpRune2.png",
-    "Price": 2.02,
-    "Volume": 178
+    "Price": 2.05,
+    "Volume": 164.3
   },
   {
     "Source": "Sockets",
     "Id": "stone-rune",
     "Name": "Stone Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "stone-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3R1blJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f7830fb594/StunRune.png",
-    "Price": 0.001405,
-    "Volume": 0.0004683
+    "Price": 0.001392,
+    "Volume": 0.0009281
   },
   {
     "Source": "Sockets",
     "Id": "storm-rune",
     "Name": "Storm Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "storm-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/98319b3998/LightningRune.png",
-    "Price": 0.06686,
-    "Volume": 2.94
+    "Price": 0.06924,
+    "Volume": 2.86
   },
   {
     "Source": "Sockets",
     "Id": "thane-girts-rune-of-wildness",
     "Name": "Thane Girt\u0027s Rune of Wildness",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "thane-girts-rune-of-wildness",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE1Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d76b01cd40/NewRune15.png",
-    "Price": 0.004433,
-    "Volume": 0.1574
+    "Price": 0.004359,
+    "Volume": 0.1548
   },
   {
     "Source": "Sockets",
     "Id": "thane-grannells-rune-of-mastery",
     "Name": "Thane Grannell\u0027s Rune of Mastery",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "thane-grannells-rune-of-mastery",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8fddac42a1/NewRune12.png",
-    "Price": 0.01027,
-    "Volume": 1.03
+    "Price": 0.01082,
+    "Volume": 1.06
   },
   {
     "Source": "Sockets",
     "Id": "thane-lelds-rune-of-spring",
     "Name": "Thane Leld\u0027s Rune of Spring",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "thane-lelds-rune-of-spring",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b2966e8da7/NewRune19.png",
-    "Price": 0.007333,
-    "Volume": 0.1283
+    "Price": 0.007347,
+    "Volume": 0.1102
   },
   {
     "Source": "Sockets",
     "Id": "thane-myrks-rune-of-summer",
     "Name": "Thane Myrk\u0027s Rune of Summer",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "thane-myrks-rune-of-summer",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE3Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f1bf657be5/NewRune17.png",
-    "Price": 0.001713,
-    "Volume": 0.01171
+    "Price": 0.001618,
+    "Volume": 0.009977
   },
   {
     "Source": "Sockets",
     "Id": "the-greatwolfs-rune-of-claws",
     "Name": "The Greatwolf\u0027s Rune of Claws",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "the-greatwolfs-rune-of-claws",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIwIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ae83a7c954/NewRune20.png",
-    "Price": 0.005999,
-    "Volume": 0.5259
+    "Price": 0.005746,
+    "Volume": 0.4893
   },
   {
     "Source": "Sockets",
     "Id": "the-greatwolfs-rune-of-willpower",
     "Name": "The Greatwolf\u0027s Rune of Willpower",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "the-greatwolfs-rune-of-willpower",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6228f14146/NewRune21.png",
-    "Price": 0.01356,
-    "Volume": 1.18
+    "Price": 0.009835,
+    "Volume": 0.7884
   },
   {
     "Source": "Sockets",
     "Id": "thruds-might",
     "Name": "Thrud\u0027s Might",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "thruds-might",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lRmlyZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4e68367277/GameWarpRuneFire.png",
-    "Price": 0.02205,
-    "Volume": 1.06
+    "Price": 0.02268,
+    "Volume": 1.14
   },
   {
     "Source": "Sockets",
     "Id": "uhtreds-sidereus",
     "Name": "Uhtred\u0027s Sidereus",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "uhtreds-sidereus",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lVGltZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/63a40dc79d/GameWarpRuneTime.png",
-    "Price": 0.2542,
-    "Volume": 24.11
+    "Price": 0.2755,
+    "Volume": 26.77
   },
   {
     "Source": "Sockets",
     "Id": "vision-rune",
     "Name": "Vision Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "vision-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQWNjdXJhY3lSdW5lIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8e7841f0ef/AccuracyRune.png",
     "Price": 1,
@@ -3913,191 +3913,191 @@
     "Source": "Sockets",
     "Id": "voranas-carnage",
     "Name": "Vorana\u0027s Carnage",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "voranas-carnage",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lUGh5c2ljYWwiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c3f3a5bf14/GameWarpRunePhysical.png",
-    "Price": 0.03287,
-    "Volume": 1.88
+    "Price": 0.0324,
+    "Volume": 1.77
   },
   {
     "Source": "Sockets",
     "Id": "ward-rune",
     "Name": "Ward Rune",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "ward-rune",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvQWRkZWRXYXJkTm9ybWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6666f53dc9/AddedWardNormal.png",
-    "Price": 0.02172,
-    "Volume": 0.2426
+    "Price": 0.02188,
+    "Volume": 0.2736
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-annihilation",
     "Name": "Warding Rune of Annihilation",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-annihilation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMTYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6abd9d3594/RunicWard16.png",
-    "Price": 0.03117,
-    "Volume": 0.1143
+    "Price": 0.03209,
+    "Volume": 0.1123
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-armature",
     "Name": "Warding Rune of Armature",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-armature",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMTgiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f48bd622f8/RunicWard18.png",
-    "Price": 0.003623,
-    "Volume": 0.01147
+    "Price": 0.00362,
+    "Volume": 0.01207
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-bodyguards",
     "Name": "Warding Rune of Bodyguards",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-bodyguards",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMjMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0a468cc91f/RunicWard23.png",
-    "Price": 0.02932,
-    "Volume": 0.2932
+    "Price": 0.04077,
+    "Volume": 0.1903
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-courage",
     "Name": "Warding Rune of Courage",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-courage",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkOSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3a80888429/RunicWard9.png",
-    "Price": 0.0008028,
-    "Volume": 0.0009367
+    "Price": 0.0007955,
+    "Volume": 0.0009281
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-desperation",
     "Name": "Warding Rune of Desperation",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-desperation",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkNCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2662ce564a/RunicWard4.png",
-    "Price": 0.001405,
-    "Volume": 0.0007025
+    "Price": 0.001392,
+    "Volume": 0.00116
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-disintegration",
     "Name": "Warding Rune of Disintegration",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-disintegration",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/54ed17499a/RunicWard3.png",
-    "Price": 0.01588,
-    "Volume": 0.06088
+    "Price": 0.02019,
+    "Volume": 0.0942
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-equinox",
     "Name": "Warding Rune of Equinox",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-equinox",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMjAiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d636760a41/RunicWard20.png",
-    "Price": 0.0147,
-    "Volume": 0.3306
+    "Price": 0.01317,
+    "Volume": 0.3116
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-glancing",
     "Name": "Warding Rune of Glancing",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-glancing",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/dcdd116775/RunicWard13.png",
-    "Price": 0.005503,
-    "Volume": 0.01101
+    "Price": 0.005568,
+    "Volume": 0.01299
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-heart",
     "Name": "Warding Rune of Heart",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-heart",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMTQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/eafc6ac83e/RunicWard14.png",
-    "Price": 0.03735,
-    "Volume": 1.64
+    "Price": 0.03449,
+    "Volume": 1.41
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-hollowing",
     "Name": "Warding Rune of Hollowing",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-hollowing",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMjQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1248d249b1/RunicWard24.png",
-    "Price": 0.009835,
-    "Volume": 0.06065
+    "Price": 0.0109,
+    "Volume": 0.07633
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-nourishment",
     "Name": "Warding Rune of Nourishment",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-nourishment",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMTUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5c516d4bf8/RunicWard15.png",
-    "Price": 0.0169,
-    "Volume": 0.1803
+    "Price": 0.01488,
+    "Volume": 0.129
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-obsession",
     "Name": "Warding Rune of Obsession",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-obsession",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMTkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d3b0901b07/RunicWard19.png",
-    "Price": 0.001405,
-    "Volume": 0.001405
+    "Price": 0.00179,
+    "Volume": 0.002088
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-protection",
     "Name": "Warding Rune of Protection",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-protection",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f81320137b/RunicWard2.png",
-    "Price": 0.006966,
-    "Volume": 0.05573
+    "Price": 0.007522,
+    "Volume": 0.07146
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-reinforcement",
     "Name": "Warding Rune of Reinforcement",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-reinforcement",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9dad170d35/RunicWard1.png",
-    "Price": 0.08912,
-    "Volume": 16.9
+    "Price": 0.08377,
+    "Volume": 15.62
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-salvaging",
     "Name": "Warding Rune of Salvaging",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-salvaging",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMjEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c14d4dd553/RunicWard21.png",
-    "Price": 0.004726,
-    "Volume": 0.008664
+    "Price": 0.003558,
+    "Volume": 0.005336
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-stability",
     "Name": "Warding Rune of Stability",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-stability",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMTAiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/089be64017/RunicWard10.png",
-    "Price": 0.009388,
-    "Volume": 0.06884
+    "Price": 0.008719,
+    "Volume": 0.05522
   },
   {
     "Source": "Sockets",
     "Id": "warding-rune-of-symbiosis",
     "Name": "Warding Rune of Symbiosis",
-    "Category": "Runes",
+    "Category": "Sockets",
     "DetailsId": "warding-rune-of-symbiosis",
     "Image": "/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkOCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5aefb386bc/RunicWard8.png",
-    "Price": 0.001405,
-    "Volume": 0.001405
+    "Price": 0.00116,
+    "Volume": 0.00232
   },
   {
     "Source": "Verisium",

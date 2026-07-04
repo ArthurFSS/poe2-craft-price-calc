@@ -30,6 +30,12 @@ const asNumber = (value, fallback = 0) => {
   return Number.isFinite(number) ? number : fallback;
 };
 
+export const roundDivineUp = (value) => {
+  const number = asNumber(value);
+  if (number <= 0) return 0;
+  return Math.max(0.01, Math.ceil((number - Number.EPSILON) * 100) / 100);
+};
+
 const normalizeLine = (line = {}) =>
   createLine({
     type: String(line.type ?? ''),
@@ -86,17 +92,22 @@ export function normalizeCrafts(input) {
   });
 }
 
-export const lineTotal = (line) => asNumber(line.qty) * asNumber(line.price);
+export const lineTotal = (line) =>
+  roundDivineUp(asNumber(line.qty) * roundDivineUp(line.price));
 
-export const stepUnitTotal = (step) => step.lines.reduce((sum, line) => sum + lineTotal(line), 0);
+export const stepUnitTotal = (step) =>
+  roundDivineUp(step.lines.reduce((sum, line) => sum + lineTotal(line), 0));
 
-export const stepTotal = (step) => stepUnitTotal(step) * step.repetitions;
+export const stepTotal = (step) => roundDivineUp(stepUnitTotal(step) * step.repetitions);
 
 export const recipeTotal = (recipe) =>
-  asNumber(recipe.base.price) + recipe.steps.reduce((sum, step) => sum + stepTotal(step), 0);
+  roundDivineUp(
+    roundDivineUp(recipe.base.price)
+      + recipe.steps.reduce((sum, step) => sum + stepTotal(step), 0),
+  );
 
 export const formatDivine = (value) =>
-  asNumber(value).toLocaleString('pt-BR', {
-    minimumFractionDigits: 0,
-    maximumFractionDigits: 4,
+  roundDivineUp(value).toLocaleString('pt-BR', {
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
   });
