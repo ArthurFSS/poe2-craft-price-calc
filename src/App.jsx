@@ -7,6 +7,8 @@ import {
   formatDivine,
   lineTotal,
   normalizeCrafts,
+  priceLookupKey,
+  refreshRecipePrices,
   recipeTotal,
   roundDivineUp,
   stepTotal,
@@ -545,6 +547,28 @@ export default function App() {
     result.forEach((items) => items.sort((a, b) => a.Name.localeCompare(b.Name)));
     return result;
   }, [priceData]);
+
+  const latestPrices = useMemo(() => new Map(
+    priceData.map((item) => [priceLookupKey(item.Source, item.Name), item.Price]),
+  ), [priceData]);
+
+  useEffect(() => {
+    if (latestPrices.size === 0) return;
+
+    setSavedCrafts((current) => {
+      let changed = false;
+      const refreshed = current.map((craft) => {
+        const nextCraft = refreshRecipePrices(craft, latestPrices);
+        if (nextCraft !== craft) changed = true;
+        return nextCraft;
+      });
+      return changed ? refreshed : current;
+    });
+
+    setActiveCraft((current) => (
+      current ? refreshRecipePrices(current, latestPrices) : current
+    ));
+  }, [latestPrices]);
 
   const types = useMemo(() => [...pricesByType.keys()].sort(), [pricesByType]);
   const currentTotal = activeCraft ? recipeTotal(activeCraft) : 0;

@@ -106,6 +106,32 @@ export const recipeTotal = (recipe) =>
       + recipe.steps.reduce((sum, step) => sum + stepTotal(step), 0),
   );
 
+export const priceLookupKey = (type, item) => `${type}\u0000${item}`;
+
+export function refreshRecipePrices(recipe, latestPrices) {
+  let recipeChanged = false;
+  const steps = recipe.steps.map((step) => {
+    let stepChanged = false;
+    const lines = step.lines.map((line) => {
+      if (!line.type || !line.item) return line;
+
+      const key = priceLookupKey(line.type, line.item);
+      if (!latestPrices.has(key)) return line;
+
+      const price = Number(latestPrices.get(key)) || 0;
+      if (price === Number(line.price)) return line;
+
+      stepChanged = true;
+      recipeChanged = true;
+      return { ...line, price };
+    });
+
+    return stepChanged ? { ...step, lines } : step;
+  });
+
+  return recipeChanged ? { ...recipe, steps } : recipe;
+}
+
 export const formatDivine = (value) =>
   roundDivineUp(value).toLocaleString('pt-BR', {
     minimumFractionDigits: 2,
