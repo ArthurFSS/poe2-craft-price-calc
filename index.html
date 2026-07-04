@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PoE2 Craft Calculator</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+body{background:#0f172a;color:#f8fafc}
+.navbar,.card{background:#1e293b!important;border:1px solid #334155}
+.card{border-radius:16px}
+.card-header{background:#273449!important;color:#fff}
+.table{--bs-table-bg:transparent;--bs-table-color:#f8fafc;--bs-table-border-color:#475569}
+.table thead th{background:#334155;color:#fff}
+.form-control,.form-select{background:#0f172a!important;color:#fff!important;border-color:#475569}
+.form-control::placeholder{color:#94a3b8}
+.totalBox{background:#111827;border:1px solid #475569;border-radius:12px;padding:12px}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-dark mb-4">
+<div class="container-fluid">
+<span class="navbar-brand"><i class="bi bi-hammer"></i> PoE2 Craft Calculator</span>
+<div class="text-success fw-bold" id="status">Carregando preços...</div>
+</div>
+</nav>
+
+<div class="container">
+
+<div class="card mb-4">
+<div class="card-body">
+<div class="row g-3 align-items-end">
+<div class="col-md-8">
+<label class="form-label">Nome da Receita</label>
+<input id="recipeName" class="form-control" placeholder="Ex.: Bota de Spirit">
+</div>
+<div class="col-md-4">
+<button class="btn btn-primary w-100" onclick="createRecipe()"><i class="bi bi-plus-circle"></i> Nova Receita</button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="mb-3">
+<button class="btn btn-success" onclick="exportCrafts()"><i class="bi bi-download"></i> Exportar Crafts</button>
+<label class="btn btn-secondary mb-0"><i class="bi bi-upload"></i> Importar Crafts<input hidden id="importCraft" type="file"></label>
+</div>
+
+<div id="recipes"></div>
+
+</div>
+
+<script>
+let db=[];
+let crafts=[];
+
+window.onload=async()=>{
+    await loadPrices();
+    document.getElementById("importCraft").onchange=importCrafts;
+}
+
+async function loadPrices(){
+    try{
+        const r=await fetch("./prices.json?_="+Date.now());
+        db=await r.json();
+        status.innerHTML="✔ "+db.length+" itens carregados";
+        render();
+    }catch(e){
+        status.className="text-danger fw-bold";
+        status.innerHTML="Não foi possível carregar prices.json";
+        console.error(e);
+    }
+}
+
+function createRecipe(){
+ const n=recipeName.value.trim();
+ if(!n)return;
+ crafts.push({
+   name:n,
+   rows:[{base:true,type:"Base",item:"",qty:1,price:0}]
+ });
+ recipeName.value="";
+ render();
+}
+
+function addRow(i){
+ crafts[i].rows.push({type:"",item:"",qty:1,price:0});
+ render();
+}
+
+function delRow(c,r){
+ if(crafts[c].rows[r].base)return;
+ crafts[c].rows.splice(r,1);
+ render();
+}
+
+function render(){
+ const root=document.getElementById("recipes");
+ root.innerHTML="";
+ const types=[...new Set(db.map(x=>x.Source))];
+
+ crafts.forEach((craft,ci)=>{
+ let total=0;
+ let html=`<div class="card mb-4">
+ <div class="card-header d-flex justify-content-between">
+ <strong>${craft.name}</strong>
+ <button class="btn btn-primary btn-sm" onclick="addRow(${ci})"><i class="bi bi-plus"></i> Etapa</button>
+ </div>
+ <div class="card-body">
+ <table class="table">
+ <thead><tr><th>Tipo</th><th>Item</th><th width="90">Qtd</th><th width="120">Unit.</th><th width="120">Total</th><th></th></tr></thead><tbody>`;
+
+ craft.rows.forEach((r,ri)=>{
+   let lt=(r.qty||0)*(r.price||0); total+=lt;
+   if(r.base){
+      html+=`<tr>
+      <td><span class="badge bg-warning text-dark">BASE</span></td>
+      <td><input class="form-control" value="${r.item}" placeholder="Nome da Base" oninput="crafts[${ci}].rows[${ri}].item=this.value"></td>
+      <td class="text-center fw-bold">1</td>
+      <td><input class="form-control text-end" type="number" value="${r.price}" onchange="crafts[${ci}].rows[${ri}].price=parseFloat(this.value)||0;render()"></td>
+      <td class="text-end fw-bold">${lt.toFixed(4)}</td>
+      <td></td></tr>`;
+   }else{
+      const items=db.filter(x=>x.Source==r.type);
+      html+=`<tr>
+      <td><select class="form-select" onchange="crafts[${ci}].rows[${ri}].type=this.value;crafts[${ci}].rows[${ri}].item='';crafts[${ci}].rows[${ri}].price=0;render()">
+      <option></option>${types.map(t=>`<option ${t==r.type?'selected':''}>${t}</option>`).join("")}</select></td>
+      <td><select class="form-select" onchange="let f=db.find(x=>x.Source==crafts[${ci}].rows[${ri}].type&&x.Name==this.value);crafts[${ci}].rows[${ri}].item=this.value;crafts[${ci}].rows[${ri}].price=f?parseFloat(f.Price):0;render()">
+      <option></option>${items.map(i=>`<option ${i.Name==r.item?'selected':''}>${i.Name}</option>`).join("")}</select></td>
+      <td><input class="form-control text-end" type="number" value="${r.qty}" onchange="crafts[${ci}].rows[${ri}].qty=parseFloat(this.value)||0;render()"></td>
+      <td class="text-end">${(r.price||0).toFixed(4)}</td>
+      <td class="text-end fw-bold">${lt.toFixed(4)}</td>
+      <td><button class="btn btn-outline-danger btn-sm" onclick="delRow(${ci},${ri})"><i class="bi bi-trash"></i></button></td>
+      </tr>`;
+   }
+ });
+
+ html+=`</tbody></table>
+ <div class="totalBox d-flex justify-content-between">
+ <strong>Total da Receita</strong>
+ <span class="badge bg-success fs-6">${total.toFixed(4)} Divine</span>
+ </div></div></div>`;
+ root.innerHTML+=html;
+ });
+}
+
+function exportCrafts(){
+ const blob=new Blob([JSON.stringify(crafts,null,2)],{type:"application/json"});
+ const a=document.createElement("a");
+ a.href=URL.createObjectURL(blob);
+ a.download="crafts.json";
+ a.click();
+}
+
+function importCrafts(e){
+ const r=new FileReader();
+ r.onload=()=>{crafts=JSON.parse(r.result);render();}
+ r.readAsText(e.target.files[0]);
+}
+</script>
+
+</body>
+</html>
