@@ -101,9 +101,7 @@ function IngredientLine({ line, prices, types, canRemove, onChange, onRemove }) 
   );
 }
 
-function StepCard({ step, index, prices, types, onChange, onRemove }) {
-  const [isCollapsed, setIsCollapsed] = useState(false);
-
+function StepCard({ step, index, prices, types, isCollapsed, onChange, onRemove, onToggleCollapse }) {
   const updateLine = (lineIndex, nextLine) => {
     const lines = step.lines.map((line, currentIndex) => currentIndex === lineIndex ? nextLine : line);
     onChange({ ...step, lines });
@@ -180,7 +178,7 @@ function StepCard({ step, index, prices, types, onChange, onRemove }) {
             className={`collapse-toggle${isCollapsed ? '' : ' expanded'}`}
             icon="chevron"
             label={isCollapsed ? `Expandir etapa ${index + 1}` : `Minimizar etapa ${index + 1}`}
-            onClick={() => setIsCollapsed((current) => !current)}
+            onClick={onToggleCollapse}
             type="button"
           />
           <IconButton
@@ -244,13 +242,38 @@ function StepCard({ step, index, prices, types, onChange, onRemove }) {
 }
 
 function RecipeCard({ recipe, index, prices, types, onChange, onRemove }) {
+  const [collapsedStepIds, setCollapsedStepIds] = useState(() => new Set());
+
   const updateStep = (stepIndex, nextStep) => {
     const steps = recipe.steps.map((step, currentIndex) => currentIndex === stepIndex ? nextStep : step);
     onChange({ ...recipe, steps });
   };
 
   const removeStep = (stepIndex) => {
+    const removedStepId = recipe.steps[stepIndex]?.id;
+    setCollapsedStepIds((current) => {
+      const next = new Set(current);
+      next.delete(removedStepId);
+      return next;
+    });
     onChange({ ...recipe, steps: recipe.steps.filter((_, currentIndex) => currentIndex !== stepIndex) });
+  };
+
+  const toggleStepCollapse = (stepId) => {
+    setCollapsedStepIds((current) => {
+      const next = new Set(current);
+      if (next.has(stepId)) next.delete(stepId);
+      else next.add(stepId);
+      return next;
+    });
+  };
+
+  const addStep = () => {
+    const previousStep = recipe.steps[recipe.steps.length - 1];
+    if (previousStep) {
+      setCollapsedStepIds((current) => new Set(current).add(previousStep.id));
+    }
+    onChange({ ...recipe, steps: [...recipe.steps, createStep()] });
   };
 
   return (
@@ -307,9 +330,11 @@ function RecipeCard({ recipe, index, prices, types, onChange, onRemove }) {
           {recipe.steps.map((step, stepIndex) => (
             <StepCard
               index={stepIndex}
+              isCollapsed={collapsedStepIds.has(step.id)}
               key={step.id}
               onChange={(nextStep) => updateStep(stepIndex, nextStep)}
               onRemove={() => removeStep(stepIndex)}
+              onToggleCollapse={() => toggleStepCollapse(step.id)}
               prices={prices}
               step={step}
               types={types}
@@ -320,7 +345,7 @@ function RecipeCard({ recipe, index, prices, types, onChange, onRemove }) {
         <div className="recipe-bottom">
           <button
             className="add-step"
-            onClick={() => onChange({ ...recipe, steps: [...recipe.steps, createStep()] })}
+            onClick={addStep}
             type="button"
           >
             <span><Icon name="plus" size={18} /></span>
