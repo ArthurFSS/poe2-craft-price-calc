@@ -1,0 +1,102 @@
+const makeId = () =>
+  globalThis.crypto?.randomUUID?.() ?? `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+
+export const createLine = (values = {}) => ({
+  id: makeId(),
+  type: '',
+  item: '',
+  qty: 1,
+  price: 0,
+  ...values,
+});
+
+export const createStep = (values = {}) => ({
+  id: makeId(),
+  comment: '',
+  repetitions: 1,
+  lines: [createLine()],
+  ...values,
+});
+
+export const createRecipe = (name) => ({
+  id: makeId(),
+  name,
+  base: { item: '', price: 0 },
+  steps: [createStep()],
+});
+
+const asNumber = (value, fallback = 0) => {
+  const number = Number(value);
+  return Number.isFinite(number) ? number : fallback;
+};
+
+const normalizeLine = (line = {}) =>
+  createLine({
+    type: String(line.type ?? ''),
+    item: String(line.item ?? ''),
+    qty: asNumber(line.qty, 1),
+    price: asNumber(line.price),
+  });
+
+const normalizeStep = (step = {}) =>
+  createStep({
+    comment: String(step.comment ?? ''),
+    repetitions: Math.max(1, Math.floor(asNumber(step.repetitions, 1))),
+    lines: Array.isArray(step.lines) && step.lines.length
+      ? step.lines.map(normalizeLine)
+      : [createLine()],
+  });
+
+const migrateLegacyRecipe = (recipe) => {
+  const rows = Array.isArray(recipe.rows) ? recipe.rows : [];
+  const base = rows.find((row) => row.base) ?? {};
+  const ingredientRows = rows.filter((row) => !row.base);
+
+  return {
+    id: makeId(),
+    name: String(recipe.name || 'Receita sem nome'),
+    base: {
+      item: String(base.item ?? ''),
+      price: asNumber(base.price),
+    },
+    steps: ingredientRows.length
+      ? ingredientRows.map((row) => createStep({ lines: [normalizeLine(row)] }))
+      : [createStep()],
+  };
+};
+
+export function normalizeCrafts(input) {
+  const recipes = Array.isArray(input) ? input : input?.crafts;
+  if (!Array.isArray(recipes)) throw new Error('O arquivo não contém uma lista de receitas.');
+
+  return recipes.map((recipe) => {
+    if (Array.isArray(recipe.rows)) return migrateLegacyRecipe(recipe);
+
+    return {
+      id: makeId(),
+      name: String(recipe.name || 'Receita sem nome'),
+      base: {
+        item: String(recipe.base?.item ?? ''),
+        price: asNumber(recipe.base?.price),
+      },
+      steps: Array.isArray(recipe.steps) && recipe.steps.length
+        ? recipe.steps.map(normalizeStep)
+        : [createStep()],
+    };
+  });
+}
+
+export const lineTotal = (line) => asNumber(line.qty) * asNumber(line.price);
+
+export const stepUnitTotal = (step) => step.lines.reduce((sum, line) => sum + lineTotal(line), 0);
+
+export const stepTotal = (step) => stepUnitTotal(step) * step.repetitions;
+
+export const recipeTotal = (recipe) =>
+  asNumber(recipe.base.price) + recipe.steps.reduce((sum, step) => sum + stepTotal(step), 0);
+
+export const formatDivine = (value) =>
+  asNumber(value).toLocaleString('pt-BR', {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 4,
+  });
