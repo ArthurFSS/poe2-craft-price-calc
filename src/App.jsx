@@ -497,7 +497,13 @@ export default function App() {
 
   useEffect(() => {
     let active = true;
-    fetch(`/prices.json?_=${Date.now()}`)
+    fetch(`/prices.json?v=${Date.now()}`, {
+      cache: 'no-store',
+      headers: {
+        Accept: 'application/json',
+        'Cache-Control': 'no-cache',
+      },
+    })
       .then((response) => {
         if (!response.ok) throw new Error('Falha ao carregar');
         const lastModified = response.headers.get('last-modified') || PRICES_FILE_UPDATED_AT;
