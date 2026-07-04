@@ -102,6 +102,8 @@ function IngredientLine({ line, prices, types, canRemove, onChange, onRemove }) 
 }
 
 function StepCard({ step, index, prices, types, onChange, onRemove }) {
+  const [isCollapsed, setIsCollapsed] = useState(false);
+
   const updateLine = (lineIndex, nextLine) => {
     const lines = step.lines.map((line, currentIndex) => currentIndex === lineIndex ? nextLine : line);
     onChange({ ...step, lines });
@@ -116,8 +118,15 @@ function StepCard({ step, index, prices, types, onChange, onRemove }) {
     onChange({ ...step, repetitions: Math.max(1, step.repetitions + delta) });
   };
 
+  const itemSummary = step.lines
+    .map((line) => {
+      const name = line.item || line.type || 'Item não selecionado';
+      return Number(line.qty) !== 1 ? `${line.qty}× ${name}` : name;
+    })
+    .join(' + ');
+
   return (
-    <article className="step-card">
+    <article className={`step-card${isCollapsed ? ' collapsed' : ''}`}>
       <header className="step-header">
         <div className="step-identity">
           <span className="step-number">{index + 1}</span>
@@ -127,25 +136,53 @@ function StepCard({ step, index, prices, types, onChange, onRemove }) {
           </div>
         </div>
 
-        <div className="step-actions">
-          <div className="repeat-control" aria-label="Número de execuções da etapa">
-            <Icon name="repeat" size={15} />
-            <span className="repeat-label">Execuções</span>
-            <IconButton
-              disabled={step.repetitions === 1}
-              icon="minus"
-              label="Remover uma repetição"
-              onClick={() => updateRepetitions(-1)}
-              type="button"
-            />
-            <strong>{step.repetitions}×</strong>
-            <IconButton
-              icon="plus"
-              label="Repetir etapa mais uma vez"
-              onClick={() => updateRepetitions(1)}
-              type="button"
-            />
+        {isCollapsed && (
+          <div className="collapsed-summary">
+            <strong title={itemSummary}>{itemSummary}</strong>
+            {step.comment && <span title={step.comment}>{step.comment}</span>}
           </div>
+        )}
+
+        <div className="step-actions">
+          {isCollapsed ? (
+            <>
+              <span className="collapsed-repeat" title={`${step.repetitions} execuções`}>
+                <Icon name="repeat" size={13} />
+                {step.repetitions}×
+              </span>
+              <span className="collapsed-total">
+                <strong>{formatDivine(stepTotal(step))}</strong>
+                <small>Divine</small>
+              </span>
+            </>
+          ) : (
+            <div className="repeat-control" aria-label="Número de execuções da etapa">
+              <Icon name="repeat" size={15} />
+              <span className="repeat-label">Execuções</span>
+              <IconButton
+                disabled={step.repetitions === 1}
+                icon="minus"
+                label="Remover uma repetição"
+                onClick={() => updateRepetitions(-1)}
+                type="button"
+              />
+              <strong>{step.repetitions}×</strong>
+              <IconButton
+                icon="plus"
+                label="Repetir etapa mais uma vez"
+                onClick={() => updateRepetitions(1)}
+                type="button"
+              />
+            </div>
+          )}
+          <IconButton
+            aria-expanded={!isCollapsed}
+            className={`collapse-toggle${isCollapsed ? '' : ' expanded'}`}
+            icon="chevron"
+            label={isCollapsed ? `Expandir etapa ${index + 1}` : `Minimizar etapa ${index + 1}`}
+            onClick={() => setIsCollapsed((current) => !current)}
+            type="button"
+          />
           <IconButton
             className="danger remove-step"
             icon="trash"
@@ -156,48 +193,52 @@ function StepCard({ step, index, prices, types, onChange, onRemove }) {
         </div>
       </header>
 
-      <div className="ingredients">
-        {step.lines.map((line, lineIndex) => (
-          <IngredientLine
-            canRemove={step.lines.length > 1}
-            key={line.id}
-            line={line}
-            onChange={(nextLine) => updateLine(lineIndex, nextLine)}
-            onRemove={() => removeLine(lineIndex)}
-            prices={prices}
-            types={types}
-          />
-        ))}
-      </div>
+      {!isCollapsed && (
+        <>
+          <div className="ingredients">
+            {step.lines.map((line, lineIndex) => (
+              <IngredientLine
+                canRemove={step.lines.length > 1}
+                key={line.id}
+                line={line}
+                onChange={(nextLine) => updateLine(lineIndex, nextLine)}
+                onRemove={() => removeLine(lineIndex)}
+                prices={prices}
+                types={types}
+              />
+            ))}
+          </div>
 
-      <div className="step-footer">
-        <button
-          className="add-combination"
-          onClick={() => onChange({ ...step, lines: [...step.lines, createLine()] })}
-          type="button"
-        >
-          <Icon name="plus" size={15} />
-          Combinar item
-        </button>
+          <div className="step-footer">
+            <button
+              className="add-combination"
+              onClick={() => onChange({ ...step, lines: [...step.lines, createLine()] })}
+              type="button"
+            >
+              <Icon name="plus" size={15} />
+              Combinar item
+            </button>
 
-        <label className="comment-field">
-          <Icon name="comment" size={15} />
-          <input
-            maxLength={160}
-            onChange={(event) => onChange({ ...step, comment: event.target.value })}
-            placeholder="Comentário desta etapa (opcional)"
-            type="text"
-            value={step.comment}
-          />
-        </label>
+            <label className="comment-field">
+              <Icon name="comment" size={15} />
+              <input
+                maxLength={160}
+                onChange={(event) => onChange({ ...step, comment: event.target.value })}
+                placeholder="Comentário desta etapa (opcional)"
+                type="text"
+                value={step.comment}
+              />
+            </label>
 
-        <div className="step-subtotal">
-          {step.repetitions > 1 && (
-            <span>{formatDivine(stepUnitTotal(step))} × {step.repetitions}</span>
-          )}
-          <strong>{formatDivine(stepTotal(step))} <small>Divine</small></strong>
-        </div>
-      </div>
+            <div className="step-subtotal">
+              {step.repetitions > 1 && (
+                <span>{formatDivine(stepUnitTotal(step))} × {step.repetitions}</span>
+              )}
+              <strong>{formatDivine(stepTotal(step))} <small>Divine</small></strong>
+            </div>
+          </div>
+        </>
+      )}
     </article>
   );
 }
@@ -432,7 +473,6 @@ export default function App() {
           <div>
             <span className="eyebrow">Bancada de craft</span>
             <h1>Planeje o craft.<br /> <em>Conheça o custo.</em></h1>
-            <p>Organize materiais em etapas, combine itens e simule cada repetição antes de gastar.</p>
           </div>
 
           <div className="summary-card">
