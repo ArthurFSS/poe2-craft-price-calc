@@ -19,10 +19,18 @@ const STORAGE_KEY = 'forge-poe2-saved-crafts-v3';
 const LEGACY_STORAGE_KEY = 'forge-poe2-crafts-v2';
 const PRICES_FILE_UPDATED_AT = __PRICES_UPDATED_AT__;
 
+// Live prices come from the API; the bundled prices.json is the fallback used
+// while the API (free Render instance) is asleep or unreachable.
+const PRICES_API_URL =
+  import.meta.env.VITE_PRICES_API_URL
+  || 'https://craft-price-calc-backend.onrender.com/api/prices';
+const API_TIMEOUT_MS = 8000;
+const API_RETRY_MS = 5000;
+
 const formatUpdatedAt = (value) => {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return null;
-  return new Intl.DateTimeFormat('pt-BR', {
+  return new Intl.DateTimeFormat('en-US', {
     dateStyle: 'short',
     timeStyle: 'short',
   }).format(date);
@@ -80,9 +88,9 @@ function IngredientLine({ line, prices, types, canRemove, onChange, onRemove }) 
   return (
     <div className="ingredient-row">
       <div className="field type-field">
-        <label>Tipo</label>
+        <label>Type</label>
         <select value={line.type} onChange={(event) => selectType(event.target.value)}>
-          <option value="">Selecione</option>
+          <option value="">Select</option>
           {types.map((type) => <option key={type} value={type}>{type}</option>)}
         </select>
       </div>
@@ -94,15 +102,15 @@ function IngredientLine({ line, prices, types, canRemove, onChange, onRemove }) 
           value={line.item}
           onChange={(event) => selectItem(event.target.value)}
         >
-          <option value="">{line.type ? 'Selecione o item' : 'Escolha um tipo primeiro'}</option>
+          <option value="">{line.type ? 'Select item' : 'Choose a type first'}</option>
           {items.map((item) => <option key={`${item.Id}-${item.Name}`} value={item.Name}>{item.Name}</option>)}
         </select>
       </div>
 
       <div className="field qty-field">
-        <label>Qtd.</label>
+        <label>Qty</label>
         <NumberInput
-          label="Quantidade"
+          label="Quantity"
           min={0}
           value={line.qty}
           onChange={(qty) => onChange({ ...line, qty: Number.isFinite(qty) ? qty : 0 })}
@@ -110,7 +118,7 @@ function IngredientLine({ line, prices, types, canRemove, onChange, onRemove }) 
       </div>
 
       <div className="value-cell unit-value">
-        <span>Unitário</span>
+        <span>Unit</span>
         <strong>{formatDivine(line.price)}</strong>
       </div>
 
@@ -124,7 +132,7 @@ function IngredientLine({ line, prices, types, canRemove, onChange, onRemove }) 
           className="danger"
           disabled={!canRemove}
           icon="trash"
-          label="Remover item da etapa"
+          label="Remove item from step"
           onClick={onRemove}
           type="button"
         />
@@ -150,7 +158,7 @@ function StepCard({ step, index, prices, types, isCollapsed, onChange, onRemove,
 
   const itemSummary = step.lines
     .map((line) => {
-      const name = line.item || line.type || 'Item não selecionado';
+      const name = line.item || line.type || 'No item selected';
       return Number(line.qty) !== 1 ? `${line.qty}× ${name}` : name;
     })
     .join(' + ');
@@ -161,8 +169,8 @@ function StepCard({ step, index, prices, types, isCollapsed, onChange, onRemove,
         <div className="step-identity">
           <span className="step-number">{index + 1}</span>
           <div>
-            <p>Etapa {index + 1}</p>
-            <span>{step.lines.length > 1 ? `${step.lines.length} itens combinados` : 'Ação individual'}</span>
+            <p>Step {index + 1}</p>
+            <span>{step.lines.length > 1 ? `${step.lines.length} combined items` : 'Single action'}</span>
           </div>
         </div>
 
@@ -176,7 +184,7 @@ function StepCard({ step, index, prices, types, isCollapsed, onChange, onRemove,
         <div className="step-actions">
           {isCollapsed ? (
             <>
-              <span className="collapsed-repeat" title={`${step.repetitions} execuções`}>
+              <span className="collapsed-repeat" title={`${step.repetitions} runs`}>
                 <Icon name="repeat" size={13} />
                 {step.repetitions}×
               </span>
@@ -186,20 +194,20 @@ function StepCard({ step, index, prices, types, isCollapsed, onChange, onRemove,
               </span>
             </>
           ) : (
-            <div className="repeat-control" aria-label="Número de execuções da etapa">
+            <div className="repeat-control" aria-label="Number of step runs">
               <Icon name="repeat" size={15} />
-              <span className="repeat-label">Execuções</span>
+              <span className="repeat-label">Runs</span>
               <IconButton
                 disabled={step.repetitions === 1}
                 icon="minus"
-                label="Remover uma repetição"
+                label="Remove one repetition"
                 onClick={() => updateRepetitions(-1)}
                 type="button"
               />
               <strong>{step.repetitions}×</strong>
               <IconButton
                 icon="plus"
-                label="Repetir etapa mais uma vez"
+                label="Repeat step once more"
                 onClick={() => updateRepetitions(1)}
                 type="button"
               />
@@ -209,14 +217,14 @@ function StepCard({ step, index, prices, types, isCollapsed, onChange, onRemove,
             aria-expanded={!isCollapsed}
             className={`collapse-toggle${isCollapsed ? '' : ' expanded'}`}
             icon="chevron"
-            label={isCollapsed ? `Expandir etapa ${index + 1}` : `Minimizar etapa ${index + 1}`}
+            label={isCollapsed ? `Expand step ${index + 1}` : `Collapse step ${index + 1}`}
             onClick={onToggleCollapse}
             type="button"
           />
           <IconButton
             className="danger remove-step"
             icon="trash"
-            label={`Excluir etapa ${index + 1}`}
+            label={`Delete step ${index + 1}`}
             onClick={onRemove}
             type="button"
           />
@@ -246,7 +254,7 @@ function StepCard({ step, index, prices, types, isCollapsed, onChange, onRemove,
               type="button"
             >
               <Icon name="plus" size={15} />
-              Combinar item
+              Combine item
             </button>
 
             <label className="comment-field">
@@ -254,7 +262,7 @@ function StepCard({ step, index, prices, types, isCollapsed, onChange, onRemove,
               <input
                 maxLength={160}
                 onChange={(event) => onChange({ ...step, comment: event.target.value })}
-                placeholder="Comentário desta etapa (opcional)"
+                placeholder="Comment for this step (optional)"
                 type="text"
                 value={step.comment}
               />
@@ -312,9 +320,9 @@ function RecipeCard({ recipe, prices, types, isDirty, onChange, onSave }) {
     <section className="recipe-card">
       <header className="recipe-header">
         <div className="recipe-title">
-          <span className="recipe-index">Craft atual</span>
+          <span className="recipe-index">Current craft</span>
           <input
-            aria-label="Nome da receita"
+            aria-label="Recipe name"
             maxLength={80}
             onChange={(event) => onChange({ ...recipe, name: event.target.value })}
             value={recipe.name}
@@ -322,11 +330,11 @@ function RecipeCard({ recipe, prices, types, isDirty, onChange, onSave }) {
         </div>
         <div className="recipe-save-area">
           <span className={`save-state${isDirty ? ' dirty' : ''}`}>
-            <i /> {isDirty ? 'Alterações não salvas' : 'Salvo'}
+            <i /> {isDirty ? 'Unsaved changes' : 'Saved'}
           </span>
           <button className="save-button" disabled={!isDirty} onClick={onSave} type="button">
             <Icon name="save" size={16} />
-            Salvar
+            Save
           </button>
         </div>
       </header>
@@ -335,22 +343,22 @@ function RecipeCard({ recipe, prices, types, isDirty, onChange, onSave }) {
         <div className="base-row">
           <div className="base-badge">Base</div>
           <label className="base-name">
-            <span>Item base</span>
+            <span>Base item</span>
             <input
               onChange={(event) => onChange({
                 ...recipe,
                 base: { ...recipe.base, item: event.target.value },
               })}
-              placeholder="Ex.: Expert Feathered Sandals"
+              placeholder="e.g. Expert Feathered Sandals"
               type="text"
               value={recipe.base.item}
             />
           </label>
           <label className="base-price">
-            <span>Preço da base</span>
+            <span>Base price</span>
             <div>
               <NumberInput
-                label="Preço da base em Divine"
+                label="Base price in Divine"
                 min={0}
                 step={0.01}
                 value={recipe.base.price}
@@ -387,11 +395,11 @@ function RecipeCard({ recipe, prices, types, isDirty, onChange, onSave }) {
             type="button"
           >
             <span><Icon name="plus" size={18} /></span>
-            Adicionar etapa
+            Add step
           </button>
 
           <div className="recipe-total">
-            <span>Custo estimado</span>
+            <span>Estimated cost</span>
             <strong>{formatDivine(recipeTotal(recipe))}</strong>
             <em>Divine</em>
           </div>
@@ -405,11 +413,11 @@ function EmptyState({ onCreate }) {
   return (
     <div className="empty-state">
       <div className="empty-icon"><Icon name="layers" size={30} /></div>
-      <h2>Sua bancada está vazia</h2>
-      <p>Crie ou carregue um craft para montar as etapas e calcular o custo total.</p>
+      <h2>Your workbench is empty</h2>
+      <p>Create or load a craft to build the steps and calculate the total cost.</p>
       <button className="primary-button" onClick={onCreate} type="button">
         <Icon name="plus" />
-        Criar primeiro craft
+        Create first craft
       </button>
     </div>
   );
@@ -420,8 +428,8 @@ function SavedCraftsSidebar({ crafts, activeCraftId, onLoad, onDelete }) {
     <aside className="craft-library">
       <div className="library-header">
         <div>
-          <span>Biblioteca</span>
-          <h2>Crafts salvos</h2>
+          <span>Library</span>
+          <h2>Saved crafts</h2>
         </div>
         <span className="library-count">{crafts.length}</span>
       </div>
@@ -430,8 +438,8 @@ function SavedCraftsSidebar({ crafts, activeCraftId, onLoad, onDelete }) {
         {crafts.length === 0 ? (
           <div className="library-empty">
             <Icon name="folder" size={22} />
-            <p>Nenhum craft salvo ainda.</p>
-            <span>Use o botão Salvar no craft atual.</span>
+            <p>No crafts saved yet.</p>
+            <span>Use the Save button on the current craft.</span>
           </div>
         ) : crafts.map((craft) => (
           <article className={`saved-craft-card${activeCraftId === craft.id ? ' active' : ''}`} key={craft.id}>
@@ -439,13 +447,13 @@ function SavedCraftsSidebar({ crafts, activeCraftId, onLoad, onDelete }) {
               <strong>{craft.name}</strong>
               <span>
                 <b>{formatDivine(recipeTotal(craft))} Divine</b>
-                <em>{craft.steps.length} {craft.steps.length === 1 ? 'etapa' : 'etapas'}</em>
+                <em>{craft.steps.length} {craft.steps.length === 1 ? 'step' : 'steps'}</em>
               </span>
             </button>
             <IconButton
               className="danger saved-craft-delete"
               icon="trash"
-              label={`Excluir craft ${craft.name}`}
+              label={`Delete craft ${craft.name}`}
               onClick={() => onDelete(craft.id)}
               type="button"
             />
@@ -467,15 +475,15 @@ function UnsavedChangesModal({ craftName, onSave, onDiscard, onCancel }) {
         role="dialog"
       >
         <div className="modal-icon"><Icon name="save" size={22} /></div>
-        <span className="eyebrow">Alterações não salvas</span>
-        <h2 id="unsaved-title">Salvar antes de continuar?</h2>
-        <p>O craft <strong>{craftName}</strong> foi alterado. Você deseja salvá-lo antes de abrir outro?</p>
+        <span className="eyebrow">Unsaved changes</span>
+        <h2 id="unsaved-title">Save before continuing?</h2>
+        <p>The craft <strong>{craftName}</strong> has been changed. Do you want to save it before opening another one?</p>
         <div className="modal-actions">
-          <button className="modal-cancel" onClick={onCancel} type="button">Cancelar</button>
-          <button className="modal-discard" onClick={onDiscard} type="button">Descartar</button>
+          <button className="modal-cancel" onClick={onCancel} type="button">Cancel</button>
+          <button className="modal-discard" onClick={onDiscard} type="button">Discard</button>
           <button className="primary-button" onClick={onSave} type="button">
             <Icon name="save" size={16} />
-            Salvar e abrir
+            Save and open
           </button>
         </div>
       </section>
@@ -490,7 +498,7 @@ export default function App() {
   const [priceData, setPriceData] = useState([]);
   const [priceStatus, setPriceStatus] = useState({
     state: 'loading',
-    message: 'Carregando preços',
+    message: 'Loading prices',
     updatedAt: null,
   });
   const [recipeName, setRecipeName] = useState('');
@@ -499,32 +507,78 @@ export default function App() {
 
   useEffect(() => {
     let active = true;
-    fetch(`/prices.json?v=${Date.now()}`, {
-      cache: 'no-store',
-      headers: {
-        Accept: 'application/json',
-        'Cache-Control': 'no-cache',
-      },
-    })
-      .then((response) => {
-        if (!response.ok) throw new Error('Falha ao carregar');
-        const lastModified = response.headers.get('last-modified') || PRICES_FILE_UPDATED_AT;
-        return response.json().then((data) => ({ data, lastModified }));
-      })
-      .then(({ data, lastModified }) => {
+    let retryTimer = null;
+    let fallbackLoaded = false;
+
+    // Bundled prices.json — used while the API is asleep/unreachable so the page
+    // always has something usable to show.
+    const loadFallback = async () => {
+      if (fallbackLoaded) return;
+      try {
+        const response = await fetch(`/prices.json?v=${Date.now()}`, {
+          cache: 'no-store',
+          headers: { Accept: 'application/json', 'Cache-Control': 'no-cache' },
+        });
+        if (!response.ok) throw new Error('fallback failed');
+        const data = await response.json();
         if (!active) return;
+        fallbackLoaded = true;
+        setPriceData((current) => (current.length ? current : data));
+      } catch {
+        // Ignore: the API retry loop keeps the "updating" notice on screen.
+      }
+    };
+
+    const fetchApi = async () => {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), API_TIMEOUT_MS);
+      try {
+        const response = await fetch(PRICES_API_URL, {
+          signal: controller.signal,
+          headers: { Accept: 'application/json' },
+        });
+        if (!response.ok) throw new Error(`status ${response.status}`);
+        return await response.json();
+      } finally {
+        clearTimeout(timeout);
+      }
+    };
+
+    // Tries the API; on failure shows the bundled prices + a notice and keeps
+    // retrying in the background until the API wakes up.
+    const attemptApi = async () => {
+      try {
+        const data = await fetchApi();
+        if (!active) return;
+        if (!Array.isArray(data) || data.length === 0) throw new Error('empty');
+
         setPriceData(data);
         setPriceStatus({
           state: 'success',
-          message: `${data.length.toLocaleString('pt-BR')} itens atualizados`,
-          updatedAt: formatUpdatedAt(lastModified),
+          message: `${data.length.toLocaleString('en-US')} items updated`,
+          updatedAt: formatUpdatedAt(new Date().toISOString()),
         });
-      })
-      .catch(() => {
+      } catch {
         if (!active) return;
-        setPriceStatus({ state: 'error', message: 'Preços indisponíveis', updatedAt: null });
-      });
-    return () => { active = false; };
+        await loadFallback();
+        if (!active) return;
+        setPriceStatus({
+          state: 'updating',
+          message: 'Updating prices…',
+          updatedAt: formatUpdatedAt(PRICES_FILE_UPDATED_AT),
+        });
+        retryTimer = setTimeout(attemptApi, API_RETRY_MS);
+      }
+    };
+
+    // Show the bundled prices right away, then try to upgrade to live data.
+    loadFallback();
+    attemptApi();
+
+    return () => {
+      active = false;
+      if (retryTimer) clearTimeout(retryTimer);
+    };
   }, []);
 
   useEffect(() => {
@@ -597,7 +651,7 @@ export default function App() {
   };
 
   const createPlaceholderRecipe = () => {
-    const nextCraft = createRecipe('Nova receita');
+    const nextCraft = createRecipe('New recipe');
     if (isDirty) setPendingCraft(nextCraft);
     else openCraft(nextCraft);
   };
@@ -606,7 +660,7 @@ export default function App() {
     if (!activeCraft) return;
     const snapshot = cloneCraft({
       ...activeCraft,
-      name: activeCraft.name.trim() || 'Craft sem nome',
+      name: activeCraft.name.trim() || 'Untitled craft',
     });
     setActiveCraft(snapshot);
     setSavedCrafts((current) => {
@@ -615,7 +669,7 @@ export default function App() {
         ? current.map((craft) => craft.id === snapshot.id ? snapshot : craft)
         : [snapshot, ...current];
     });
-    setNotice({ state: 'success', message: 'Craft salvo na biblioteca' });
+    setNotice({ state: 'success', message: 'Craft saved to library' });
   };
 
   const saveAndContinue = () => {
@@ -633,7 +687,7 @@ export default function App() {
 
   const deleteSavedCraft = (craftId) => {
     setSavedCrafts((current) => current.filter((craft) => craft.id !== craftId));
-    setNotice({ state: 'success', message: 'Craft removido da biblioteca' });
+    setNotice({ state: 'success', message: 'Craft removed from library' });
   };
 
   const exportCrafts = () => {
@@ -644,7 +698,7 @@ export default function App() {
     link.download = 'poe2-crafts.json';
     link.click();
     URL.revokeObjectURL(link.href);
-    setNotice({ state: 'success', message: 'Crafts exportados' });
+    setNotice({ state: 'success', message: 'Crafts exported' });
   };
 
   const importCrafts = async (event) => {
@@ -654,9 +708,9 @@ export default function App() {
       const imported = normalizeCrafts(JSON.parse(await file.text()));
       setSavedCrafts((current) => [...imported, ...current]);
       if (imported[0]) requestOpenCraft(imported[0]);
-      setNotice({ state: 'success', message: `${imported.length} craft(s) adicionado(s) à biblioteca` });
+      setNotice({ state: 'success', message: `${imported.length} craft(s) added to the library` });
     } catch (error) {
-      setNotice({ state: 'error', message: error.message || 'Arquivo de receitas inválido' });
+      setNotice({ state: 'error', message: error.message || 'Invalid recipes file' });
     } finally {
       event.target.value = '';
     }
@@ -665,7 +719,7 @@ export default function App() {
   return (
     <div className="app-shell">
       <nav className="topbar">
-        <a className="brand" href="#top" aria-label="Forge — início">
+        <a className="brand" href="#top" aria-label="Forge — home">
           <span className="brand-mark"><Icon name="hammer" size={22} /></span>
           <span><strong>FORGE</strong><small>PoE2 Craft Calculator</small></span>
         </a>
@@ -674,41 +728,51 @@ export default function App() {
           <span className="status-dot" />
           <span>
             <strong>{priceStatus.message}</strong>
-            {priceStatus.updatedAt && <small>Atualizado em {priceStatus.updatedAt}</small>}
+            {priceStatus.updatedAt && <small>Updated at {priceStatus.updatedAt}</small>}
           </span>
         </div>
       </nav>
 
       <main id="top">
+        {priceStatus.state === 'updating' && (
+          <div className="update-banner" role="status">
+            <span className="update-spinner" aria-hidden="true" />
+            <p>
+              <strong>Prices are updating and will be available shortly.</strong>
+              <span>Showing the latest saved prices for now — live data loads automatically once the server is awake.</span>
+            </p>
+          </div>
+        )}
+
         <section className="hero">
           <div>
-            <span className="eyebrow">Bancada de craft</span>
-            <h1>Planeje o craft.<br /> <em>Conheça o custo.</em></h1>
+            <span className="eyebrow">Craft workbench</span>
+            <h1>Plan the craft.<br /> <em>Know the cost.</em></h1>
           </div>
 
           <div className="summary-card">
-            <span>Total do craft atual</span>
+            <span>Current craft total</span>
             <div><strong>{formatDivine(currentTotal)}</strong><em>Divine</em></div>
-            <small>{activeCraft ? `${activeCraft.steps.length} ${activeCraft.steps.length === 1 ? 'etapa' : 'etapas'}` : 'Nenhum craft aberto'}</small>
+            <small>{activeCraft ? `${activeCraft.steps.length} ${activeCraft.steps.length === 1 ? 'step' : 'steps'}` : 'No craft open'}</small>
           </div>
         </section>
 
         <section className="toolbar-panel">
           <div className="new-recipe-field">
-            <label htmlFor="recipe-name">Novo craft</label>
+            <label htmlFor="recipe-name">New craft</label>
             <div>
               <input
                 id="recipe-name"
                 maxLength={80}
                 onChange={(event) => setRecipeName(event.target.value)}
                 onKeyDown={(event) => { if (event.key === 'Enter') addRecipe(); }}
-                placeholder="Ex.: Botas de Spirit"
+                placeholder="e.g. Spirit Boots"
                 type="text"
                 value={recipeName}
               />
               <button className="primary-button" disabled={!recipeName.trim()} onClick={addRecipe} type="button">
                 <Icon name="plus" />
-                Criar craft
+                Create craft
               </button>
             </div>
           </div>
@@ -716,11 +780,11 @@ export default function App() {
           <div className="file-actions">
             <button disabled={!savedCrafts.length} onClick={exportCrafts} type="button">
               <Icon name="download" />
-              Exportar
+              Export
             </button>
             <button onClick={() => importRef.current?.click()} type="button">
               <Icon name="upload" />
-              Importar
+              Import
             </button>
             <input accept="application/json,.json" hidden onChange={importCrafts} ref={importRef} type="file" />
           </div>
@@ -753,7 +817,7 @@ export default function App() {
 
         <footer>
           <span><Icon name="hammer" size={15} /> Forge</span>
-          <p>Os valores são estimativas baseadas no arquivo de preços atual.</p>
+          <p>Values are estimates based on the current price data.</p>
         </footer>
       </main>
 
@@ -766,7 +830,7 @@ export default function App() {
 
       {pendingCraft && activeCraft && (
         <UnsavedChangesModal
-          craftName={activeCraft.name || 'Craft sem nome'}
+          craftName={activeCraft.name || 'Untitled craft'}
           onCancel={() => setPendingCraft(null)}
           onDiscard={discardAndContinue}
           onSave={saveAndContinue}

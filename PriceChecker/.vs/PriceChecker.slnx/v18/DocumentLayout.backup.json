@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Git\\PriceChecker\\PriceChecker\\",
+  "WorkspaceRootPath": "D:\\Git\\PriceChecker\\poe2-craft-price-calc\\PriceChecker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B99EC027-A7E7-4648-8537-CD78282B9D62}|PriceChecker.csproj|d:\\git\\pricechecker\\pricechecker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B99EC027-A7E7-4648-8537-CD78282B9D62}|PriceChecker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36FDE08A-5FA9-B183-0BFD-9E02E5A97D47}|PriceChecker.csproj|d:\\git\\pricechecker\\poe2-craft-price-calc\\pricechecker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36FDE08A-5FA9-B183-0BFD-9E02E5A97D47}|PriceChecker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Git\\PriceChecker\\PriceChecker\\Program.cs",
+              "DocumentMoniker": "D:\\Git\\PriceChecker\\poe2-craft-price-calc\\PriceChecker\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Git\\PriceChecker\\PriceChecker\\Program.cs",
+              "ToolTip": "D:\\Git\\PriceChecker\\poe2-craft-price-calc\\PriceChecker\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-03T23:34:20.742Z",
               "EditorCaption": ""

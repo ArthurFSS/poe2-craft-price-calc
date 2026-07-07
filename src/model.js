@@ -60,7 +60,7 @@ const migrateLegacyRecipe = (recipe) => {
 
   return {
     id: makeId(),
-    name: String(recipe.name || 'Receita sem nome'),
+    name: String(recipe.name || 'Untitled recipe'),
     base: {
       item: String(base.item ?? ''),
       price: asNumber(base.price),
@@ -73,14 +73,14 @@ const migrateLegacyRecipe = (recipe) => {
 
 export function normalizeCrafts(input) {
   const recipes = Array.isArray(input) ? input : input?.crafts;
-  if (!Array.isArray(recipes)) throw new Error('O arquivo não contém uma lista de receitas.');
+  if (!Array.isArray(recipes)) throw new Error('The file does not contain a list of recipes.');
 
   return recipes.map((recipe) => {
     if (Array.isArray(recipe.rows)) return migrateLegacyRecipe(recipe);
 
     return {
       id: makeId(),
-      name: String(recipe.name || 'Receita sem nome'),
+      name: String(recipe.name || 'Untitled recipe'),
       base: {
         item: String(recipe.base?.item ?? ''),
         price: asNumber(recipe.base?.price),
@@ -133,7 +133,7 @@ export function refreshRecipePrices(recipe, latestPrices) {
 }
 
 export const formatDivine = (value) =>
-  roundDivineUp(value).toLocaleString('pt-BR', {
+  roundDivineUp(value).toLocaleString('en-US', {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   });

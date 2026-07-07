@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\PriceChecker\\PriceChecker\\PriceChecker.csproj",
+      "projectUniqueName": "D:\\Git\\PriceChecker\\poe2-craft-price-calc\\PriceChecker\\PriceChecker.csproj",
       "projectName": "PriceChecker",
-      "projectPath": "D:\\Git\\PriceChecker\\PriceChecker\\PriceChecker.csproj",
+      "projectPath": "D:\\Git\\PriceChecker\\poe2-craft-price-calc\\PriceChecker\\PriceChecker.csproj",
       "packagesPath": "C:\\Users\\atwii\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\PriceChecker\\PriceChecker\\obj\\",
+      "outputPath": "D:\\Git\\PriceChecker\\poe2-craft-price-calc\\PriceChecker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
