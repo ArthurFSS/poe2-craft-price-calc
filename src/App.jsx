@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Icon } from './icons';
 import {
   createLine,
@@ -41,6 +41,24 @@ const cloneCraft = (craft) => (
     ? globalThis.structuredClone(craft)
     : JSON.parse(JSON.stringify(craft))
 );
+
+// A single craft encoded as a base64 string that can be copied and shared.
+const encodeCraft = (craft) => {
+  const json = JSON.stringify({ v: 3, crafts: [craft] });
+  const bytes = new TextEncoder().encode(json);
+  let binary = '';
+  bytes.forEach((byte) => { binary += String.fromCharCode(byte); });
+  return btoa(binary);
+};
+
+const decodeCraft = (code) => {
+  const binary = atob(code.trim());
+  const bytes = Uint8Array.from(binary, (char) => char.charCodeAt(0));
+  const json = new TextDecoder().decode(bytes);
+  const crafts = normalizeCrafts(JSON.parse(json));
+  if (!crafts.length) throw new Error('The code does not contain a craft.');
+  return crafts[0];
+};
 
 const loadSavedCrafts = () => {
   try {
@@ -491,6 +509,89 @@ function UnsavedChangesModal({ craftName, onSave, onDiscard, onCancel }) {
   );
 }
 
+function ExportModal({ craftName, code, onClose }) {
+  const [copied, setCopied] = useState(false);
+
+  const copyCode = async () => {
+    try {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(code);
+      } else {
+        const helper = document.createElement('textarea');
+        helper.value = code;
+        document.body.appendChild(helper);
+        helper.select();
+        document.execCommand('copy');
+        document.body.removeChild(helper);
+      }
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      setCopied(false);
+    }
+  };
+
+  return (
+    <div className="modal-backdrop" role="presentation" onMouseDown={onClose}>
+      <section
+        aria-labelledby="export-title"
+        aria-modal="true"
+        className="unsaved-modal share-modal"
+        onMouseDown={(event) => event.stopPropagation()}
+        role="dialog"
+      >
+        <div className="modal-icon"><Icon name="download" size={22} /></div>
+        <span className="eyebrow">Share craft</span>
+        <h2 id="export-title">Export “{craftName}”</h2>
+        <p>Copy the code below and share it. Whoever pastes it into Import will get this exact craft.</p>
+        <textarea className="share-code" readOnly value={code} onFocus={(event) => event.target.select()} />
+        <div className="modal-actions">
+          <button className="modal-cancel" onClick={onClose} type="button">Close</button>
+          <button className="primary-button" onClick={copyCode} type="button">
+            <Icon name={copied ? 'check' : 'download'} size={16} />
+            {copied ? 'Copied!' : 'Copy code'}
+          </button>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+function ImportModal({ onImport, onClose }) {
+  const [code, setCode] = useState('');
+
+  return (
+    <div className="modal-backdrop" role="presentation" onMouseDown={onClose}>
+      <section
+        aria-labelledby="import-title"
+        aria-modal="true"
+        className="unsaved-modal share-modal"
+        onMouseDown={(event) => event.stopPropagation()}
+        role="dialog"
+      >
+        <div className="modal-icon"><Icon name="upload" size={22} /></div>
+        <span className="eyebrow">Import craft</span>
+        <h2 id="import-title">Paste a craft code</h2>
+        <p>Paste a shared craft code below. It will be opened as the current craft.</p>
+        <textarea
+          autoFocus
+          className="share-code"
+          onChange={(event) => setCode(event.target.value)}
+          placeholder="Paste the craft code here…"
+          value={code}
+        />
+        <div className="modal-actions">
+          <button className="modal-cancel" onClick={onClose} type="button">Cancel</button>
+          <button className="primary-button" disabled={!code.trim()} onClick={() => onImport(code)} type="button">
+            <Icon name="upload" size={16} />
+            Import craft
+          </button>
+        </div>
+      </section>
+    </div>
+  );
+}
+
 export default function App() {
   const [savedCrafts, setSavedCrafts] = useState(loadSavedCrafts);
   const [activeCraft, setActiveCraft] = useState(null);
@@ -503,7 +604,8 @@ export default function App() {
   });
   const [recipeName, setRecipeName] = useState('');
   const [notice, setNotice] = useState(null);
-  const importRef = useRef(null);
+  const [exportCode, setExportCode] = useState(null);
+  const [importOpen, setImportOpen] = useState(false);
 
   useEffect(() => {
     let active = true;
@@ -690,29 +792,29 @@ export default function App() {
     setNotice({ state: 'success', message: 'Craft removed from library' });
   };
 
-  const exportCrafts = () => {
-    const payload = { version: 3, exportedAt: new Date().toISOString(), crafts: savedCrafts };
-    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
-    link.download = 'poe2-crafts.json';
-    link.click();
-    URL.revokeObjectURL(link.href);
-    setNotice({ state: 'success', message: 'Crafts exported' });
+  // Export only the active craft as a shareable base64 code.
+  const exportActiveCraft = () => {
+    if (!activeCraft) return;
+    setExportCode(encodeCraft(activeCraft));
   };
 
-  const importCrafts = async (event) => {
-    const file = event.target.files?.[0];
-    if (!file) return;
+  // Import a single craft from a code; it becomes the active craft.
+  // If the current craft has unsaved changes, ask before replacing it.
+  const importFromCode = (code) => {
+    if (!code.trim()) return;
+    let imported;
     try {
-      const imported = normalizeCrafts(JSON.parse(await file.text()));
-      setSavedCrafts((current) => [...imported, ...current]);
-      if (imported[0]) requestOpenCraft(imported[0]);
-      setNotice({ state: 'success', message: `${imported.length} craft(s) added to the library` });
-    } catch (error) {
-      setNotice({ state: 'error', message: error.message || 'Invalid recipes file' });
-    } finally {
-      event.target.value = '';
+      imported = decodeCraft(code);
+    } catch {
+      setNotice({ state: 'error', message: 'Invalid craft code' });
+      return;
+    }
+    setImportOpen(false);
+    if (isDirty) {
+      setPendingCraft(imported);
+    } else {
+      openCraft(imported);
+      setNotice({ state: 'success', message: 'Craft imported' });
     }
   };
 
@@ -778,15 +880,14 @@ export default function App() {
           </div>
 
           <div className="file-actions">
-            <button disabled={!savedCrafts.length} onClick={exportCrafts} type="button">
+            <button disabled={!activeCraft} onClick={exportActiveCraft} type="button">
               <Icon name="download" />
               Export
             </button>
-            <button onClick={() => importRef.current?.click()} type="button">
+            <button onClick={() => setImportOpen(true)} type="button">
               <Icon name="upload" />
               Import
             </button>
-            <input accept="application/json,.json" hidden onChange={importCrafts} ref={importRef} type="file" />
           </div>
         </section>
 
@@ -834,6 +935,21 @@ export default function App() {
           onCancel={() => setPendingCraft(null)}
           onDiscard={discardAndContinue}
           onSave={saveAndContinue}
+        />
+      )}
+
+      {exportCode && (
+        <ExportModal
+          code={exportCode}
+          craftName={activeCraft?.name || 'Untitled craft'}
+          onClose={() => setExportCode(null)}
+        />
+      )}
+
+      {importOpen && (
+        <ImportModal
+          onClose={() => setImportOpen(false)}
+          onImport={importFromCode}
         />
       )}
     </div>

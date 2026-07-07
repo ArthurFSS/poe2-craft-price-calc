@@ -743,6 +743,25 @@ footer span { display: flex; align-items: center; gap: 6px; color: #747d87; font
 .modal-cancel:hover { color: var(--text); }
 .modal-discard { border: 1px solid rgba(229, 118, 118, .25); color: var(--red); background: rgba(229, 118, 118, .05); }
 .modal-discard:hover { background: rgba(229, 118, 118, .1); }
+
+.share-modal { width: min(500px, 100%); }
+.share-code {
+  width: 100%;
+  margin-top: 15px;
+  padding: 11px 13px;
+  height: 132px;
+  resize: vertical;
+  border: 1px solid var(--line-bright);
+  border-radius: 9px;
+  background: #0c0f13;
+  color: #cfd4d9;
+  font-family: 'DM Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 11px;
+  line-height: 1.5;
+  word-break: break-all;
+}
+.share-code:focus { outline: none; border-color: rgba(210, 164, 78, .45); }
+.share-code::placeholder { color: var(--muted); }
 @keyframes modal-fade { from { opacity: 0; } }
 @keyframes modal-rise { from { opacity: 0; transform: translateY(8px) scale(.985); } }
 
